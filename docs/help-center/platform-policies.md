@@ -81,11 +81,11 @@ Policies are versioned with effective dates. Checkout captures the version you a
 
 | Policy area | Help article | Legal doc (Phase 5) |
 |-------------|--------------|---------------------|
-| Terms of service | This article | `legal/terms.md` |
-| Refund policy | [Refunds](refunds.md) | `legal/refund-policy.md` |
-| Seller agreement | [Verification](verification.md) | `legal/seller-agreement.md` |
+| Terms of service | This article | `legal/terms-of-service.md` |
+| Refund policy | [Refunds](refunds.md) | `legal/refund-and-cancellation-policy.md` |
+| Creator agreement | [Verification](verification.md) | `legal/creator-agreement.md` |
 | Privacy | [Privacy](privacy.md) | `legal/privacy-policy.md` |
-| Food disclosures | [Food safety](food-safety.md) | `legal/food-disclosures.md` |
+| Food commerce compliance | [Food safety](food-safety.md) | `legal/food-commerce-compliance.md` |
 
 ---
 

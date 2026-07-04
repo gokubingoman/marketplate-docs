@@ -228,8 +228,6 @@ All Phase 5 README-indexed documents are on disk as of Phase 5 completion:
 | `company/roadmap/company-phases.md` | `company/vision.md` | Medium — wrong relative path |
 | `design-system/accessibility.md` | `company/company-philosophy.md` | Low — should be `design-system/accessibility-standards.md` |
 | `components-overview.md` | `design-system/accessibility-standards.md` | Low — should be `./components-overview.md` |
-| `analytics/dashboards.md` | `analytics/README.md`, metrics-definitions | Expected until doc written |
-| `legal/refund-and-cancellation-policy.md` | `legal/README.md`, privacy policy | Expected until doc written |
 | `operations/trust-and-safety` | `product/marketplace-mechanics.md` | Low — folder link; no index at path |
 | `pages/ai`, `pages/operations` | `pages/flows/trust-verification-flow.md` | Medium — should point to `../../ai/`, `../../operations/` |
 
@@ -251,15 +249,10 @@ All Phase 5 README-indexed documents are on disk as of Phase 5 completion:
 | Priority | Action | Owner |
 |----------|--------|-------|
 | **P0** | Engage legal counsel; resolve launch-market `TODO(decision):` items in all `legal/` drafts | Legal / Founders |
-| **P0** | Write `legal/refund-and-cancellation-policy.md` | Legal agent |
 | **P0** | Bulk-fix `pages/flows/` relative paths (`../` → `../../` for repo-root folders) | Documentation QA |
-| **P1** | Complete analytics trilogy: event taxonomy, dashboards, data governance | Analytics agent |
-| **P1** | Write `engineering/data-protection.md` | Security agent |
-| **P1** | Write `growth/brand-marketing.md` and `growth/launch-plan.md` | Growth agent |
 | **P1** | Publish ADRs for auth provider, verification vendor, analytics stack when decided | Engineering / Founders |
 | **P2** | Fix `design-system/` root relative paths and `company/vision.md` roadmap link | Documentation QA |
 | **P2** | Fix `docs/playbooks/` and `docs/training/` wrong-prefix links | Documentation QA |
-| **P2** | Update `roadmap/build-readiness.md` and `operations/README.md` stale status | Documentation QA |
 | **P2** | Add logo/wordmark to `assets/` or document interim placeholder policy | Brand |
 | **P3** | Optional architecture diagrams in `diagrams/` | Engineering |
 
@@ -270,7 +263,7 @@ Per [Build Readiness](build-readiness.md), engineering should follow the documen
 1. **Phase A — Foundation:** Repo, CI/CD, identity/auth scaffolding, core data model, design system components
 2. **Phase B — Trust path:** Creator signup → verification → admin queue → verified-to-sell gate
 3. **Phase C — Commerce loop:** Storefront, cart, checkout, orders, payouts
-4. **Phase D — Discovery:** Search, browse, reviews, help center integration, analytics instrumentation (against metrics-definitions when taxonomy lands)
+4. **Phase D — Discovery:** Search, browse, reviews, help center integration, analytics instrumentation per [event taxonomy](../analytics/event-taxonomy.md)
 
 **Do not block engineering on:** growth playbooks, competitive research quantification, diagram assets, or full analytics warehouse choice — use ADR placeholders and implement event emission per page specs.
 
