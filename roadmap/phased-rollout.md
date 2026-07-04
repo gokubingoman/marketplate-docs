@@ -12,7 +12,7 @@ This roadmap governs how Marketplate's institutional memory is built. Work proce
 |-------|------|--------|--------|
 | 1 | Foundation | **Complete** | Company & Vision, Brand & Design System, Product & Marketplace |
 | 2 | Design & UX | **Complete** | UX & IA, Page Specification |
-| 3 | Engineering | Not started | Engineering Architecture, Backend Systems, AI Platform |
+| 3 | Engineering | **Complete** | Engineering Architecture, Backend Systems, AI Platform |
 | 4 | Operations | Not started | Operations & SOP, Customer Support, Trust & Safety, Super Admin |
 | 5 | Launch | Not started | Legal & Compliance, Security & Infrastructure, Analytics & Data, Growth & Marketing, Research & Competitive Analysis, Documentation QA |
 
@@ -93,7 +93,7 @@ See [prompts/phase-agent-prompts.md](../prompts/phase-agent-prompts.md).
 
 **Goal:** Architecture, APIs, services, and AI platform documentation.
 
-**Status:** Not started
+**Status:** Complete
 
 ### Deliverables
 
@@ -103,10 +103,19 @@ See [prompts/phase-agent-prompts.md](../prompts/phase-agent-prompts.md).
 | Backend Systems | `engineering/` | API specs, data models, service docs |
 | AI Platform | `ai/` | AI system docs per `templates/ai-doc-template.md` |
 
-### Prerequisites
+### Exit Criteria
 
-- Phase 2 page specs define API requirements
-- Product marketplace mechanics define trust/transaction boundaries
+- [x] Architecture overview, service catalog, integration patterns, infrastructure, data flows documented
+- [x] API specs consolidated from page requirements (customer, creator, admin)
+- [x] Data model and core entities documented
+- [x] Seven service specifications published
+- [x] Four AI systems documented with human-approval gates
+
+### Next: Phase 4 Kickoff
+
+Phase 4 requires Operations & SOP, Customer Support, Trust & Safety, and Super Admin agents. Engineering docs define observable systems and audit trails for SOPs.
+
+See [prompts/phase-agent-prompts.md](../prompts/phase-agent-prompts.md).
 
 ---
 

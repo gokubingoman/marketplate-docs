@@ -21,6 +21,13 @@ This repository is not a passive documentation archive. It is the operating syst
 | [Brand](brand/) | Strategy, positioning, voice, naming |
 | [Product](product/) | Overview, personas, marketplace mechanics, metrics |
 
+### Phase 3 Documents
+
+| Folder | Index |
+|--------|-------|
+| [Engineering](engineering/) | Architecture, 5 API docs, data model, 7 service specs |
+| [AI](ai/) | 4 AI systems + platform overview |
+
 ### Phase 2 Documents
 
 | Folder | Index |
@@ -59,7 +66,7 @@ This repository is not a passive documentation archive. It is the operating syst
 |-------|------|--------|
 | 1 | Foundation — company, brand, product | **Complete** |
 | 2 | Design & UX — design system, IA, pages | **Complete** |
-| 3 | Engineering — architecture, APIs, infrastructure | Not started |
+| 3 | Engineering — architecture, APIs, infrastructure | **Complete** |
 | 4 | Operations — SOPs, support, trust & safety | Not started |
 | 5 | Launch — legal, analytics, roadmap, QA | Not started |
 
