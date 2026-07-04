@@ -39,8 +39,8 @@
 | Gap | Folder | Why it matters | Priority |
 |-----|--------|----------------|----------|
 | **Legal & compliance** | `legal/` | Terms, privacy, food sale regulations, creator agreements, refund policy as enforceable legal text | **Launch blocker** |
-| **Operations SOPs** | `operations/` | Verification review steps, dispute handling, food safety incident procedures at task level | **Launch blocker** |
-| **Customer support playbooks** | `support/` | Macros, escalation trees, SLA execution | High |
+| **Operations SOPs** | `operations/` | Verification, moderation, disputes, food safety, refunds, suspension, admin | ✓ Phase 4 complete |
+| **Customer support playbooks** | `support/` | Playbook, escalation guide, macro library | ✓ Phase 4 complete |
 | **Analytics definitions** | `analytics/` | Event taxonomy implementation, dashboards, data governance | High |
 | **Security policies** | `engineering/` (Phase 5) | Formal infosec policy, incident response, access reviews | High |
 | **Growth & GTM** | `growth/` | Launch market acquisition plan | Medium (parallel to build) |
