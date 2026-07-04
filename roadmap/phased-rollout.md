@@ -119,6 +119,16 @@ See [prompts/phase-agent-prompts.md](../prompts/phase-agent-prompts.md).
 
 ---
 
+## Playbook Expansion
+
+**Status:** Complete
+
+Extended documentation in [`docs/`](../docs/) — creator onboarding, internal briefs, company standards, help center (22 articles), customer success, employee training (9 roles), and operational playbooks (8 scenarios).
+
+See [prompts/playbook-expansion.md](../prompts/playbook-expansion.md).
+
+---
+
 ## Phase 4 — Operations
 
 **Goal:** SOPs, support playbooks, trust & safety workflows, admin tooling.

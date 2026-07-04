@@ -28,6 +28,19 @@ This repository is not a passive documentation archive. It is the operating syst
 | [Engineering](engineering/) | Architecture, 5 API docs, data model, 7 service specs |
 | [AI](ai/) | 4 AI systems + platform overview |
 
+### Playbook Expansion (`docs/`)
+
+| Folder | Index |
+|--------|-------|
+| [Docs Hub](docs/) | Onboarding, internal, standards, help center, CS, training, playbooks |
+| [Creator Onboarding](docs/onboarding/) | Welcome package, checklist, success guide |
+| [Internal](docs/internal/) | Company overview, executive summary, partner handbook |
+| [Standards](docs/standards/) | Master standards, chef quality, trust & safety |
+| [Help Center](docs/help-center/) | 22 production articles + architecture |
+| [Customer Success](docs/customer-success/) | Lifecycle, retention, education, metrics |
+| [Training](docs/training/) | 9 role-based employee onboarding guides |
+| [Playbooks](docs/playbooks/) | 8 cross-functional operational playbooks |
+
 ### Phase 2 Documents
 
 | Folder | Index |
@@ -58,7 +71,7 @@ This repository is not a passive documentation archive. It is the operating syst
 | `templates/` | Reusable document templates | Ongoing |
 | `prompts/` | Agent prompts and AI context | Ongoing |
 | `assets/` | Images, logos, media | Ongoing |
-| `diagrams/` | Architecture and flow diagrams | Ongoing |
+| `docs/` | Onboarding, standards, help center, training, playbooks | Expansion |
 
 ## Phase Status
 
