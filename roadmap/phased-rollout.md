@@ -11,7 +11,7 @@ This roadmap governs how Marketplate's institutional memory is built. Work proce
 | Phase | Name | Status | Agents |
 |-------|------|--------|--------|
 | 1 | Foundation | **Complete** | Company & Vision, Brand & Design System, Product & Marketplace |
-| 2 | Design & UX | Not started | UX & IA, Page Specification |
+| 2 | Design & UX | **Complete** | UX & IA, Page Specification |
 | 3 | Engineering | Not started | Engineering Architecture, Backend Systems, AI Platform |
 | 4 | Operations | Not started | Operations & SOP, Customer Support, Trust & Safety, Super Admin |
 | 5 | Launch | Not started | Legal & Compliance, Security & Infrastructure, Analytics & Data, Growth & Marketing, Research & Competitive Analysis, Documentation QA |
@@ -55,7 +55,7 @@ See [prompts/phase-agent-prompts.md](../prompts/phase-agent-prompts.md) for agen
 
 **Goal:** Complete information architecture and every page specification.
 
-**Status:** Not started
+**Status:** Complete
 
 ### Deliverables
 
@@ -71,9 +71,21 @@ See [prompts/phase-agent-prompts.md](../prompts/phase-agent-prompts.md) for agen
 
 ### Exit Criteria
 
-- [ ] Every screen has a page spec using `templates/page-doc-template.md`
-- [ ] IA doc covers all user types and primary journeys
-- [ ] Components overview expanded into full component specs where needed
+- [x] Every screen has a page spec using `templates/page-doc-template.md`
+- [x] IA doc covers all user types and primary journeys
+- [x] Components overview expanded into full component specs where needed
+
+### Next: Phase 3 Kickoff
+
+Phase 3 requires:
+
+1. **Engineering Architecture Agent** — system architecture, service catalog, integration patterns in `engineering/`
+2. **Backend Systems Agent** — API specs, data models, service docs
+3. **AI Platform Agent** — AI system docs per `templates/ai-doc-template.md`
+
+Page specs define API requirements; marketplace mechanics define trust/transaction boundaries.
+
+See [prompts/phase-agent-prompts.md](../prompts/phase-agent-prompts.md).
 
 ---
 

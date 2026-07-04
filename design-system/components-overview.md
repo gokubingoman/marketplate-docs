@@ -1,18 +1,18 @@
 # Components Overview
 
-> Inventory of Marketplate UI components — purpose and scope. Full specifications deferred to Phase 2.
+> Inventory of Marketplate UI components — purpose, scope, and links to full specifications.
 
 **Status:** Active  
-**Version:** 1.0  
+**Version:** 1.1  
 **Last updated:** 2026-07-03
 
 ---
 
 ## Purpose
 
-This document lists the **core component inventory** for Marketplate. Each entry defines *what the component is for* and *where it appears* — not anatomy, props, states, or code.
+This document lists the **core component inventory** for Marketplate. Each entry defines *what the component is for* and *where it appears*, with a link to its full specification.
 
-Full component specifications (variants, sizes, states, accessibility details, code APIs) are **Phase 2 deliverables**, built on top of [foundations](foundations/color.md) and [principles](principles.md).
+Full component specifications (variants, anatomy, states, tokens, accessibility, responsive behavior) live in [`components/`](components/) — built on [foundations](foundations/color.md) and [principles](principles.md).
 
 ---
 
@@ -43,7 +43,7 @@ All components inherit from [design principles](principles.md):
 
 **Appears on:** Every page. Checkout, forms, dashboards, modals, empty states.
 
-**Phase 2 spec will define:** Sizes (sm, md, lg), loading state, icon placement, disabled state, full-width mobile behavior.
+→ **Full spec:** [components/buttons.md](components/buttons.md)
 
 ---
 
@@ -64,7 +64,7 @@ All components inherit from [design principles](principles.md):
 
 **Appears on:** Registration, verification, menu management, checkout, search.
 
-**Phase 2 spec will define:** Validation states, helper text placement, label anatomy, inline vs. summary errors.
+→ **Full spec:** [components/inputs.md](components/inputs.md)
 
 ---
 
@@ -82,7 +82,7 @@ All components inherit from [design principles](principles.md):
 
 **Appears on:** Storefronts, discovery, dashboards, order history.
 
-**Phase 2 spec will define:** Padding tokens, image aspect ratios, interactive vs. static cards, hover/focus states.
+→ **Full spec:** [components/cards.md](components/cards.md)
 
 ---
 
@@ -99,7 +99,7 @@ All components inherit from [design principles](principles.md):
 
 **Appears on:** Creator profiles, menu items, order lists, checkout trust strip.
 
-**Phase 2 spec will define:** Color mappings per badge type, icon pairings, tooltip behavior for verification detail.
+→ **Full spec:** [components/badges.md](components/badges.md)
 
 → Verification naming: [naming-conventions.md](../../brand/naming-conventions.md#verification--trust-labels)
 
@@ -117,7 +117,7 @@ All components inherit from [design principles](principles.md):
 
 **Appears on:** Storefronts, profiles, reviews, navigation account menu.
 
-**Phase 2 spec will define:** Sizes (xs–xl), fallback initials logic, online/status indicators (if applicable).
+→ **Full spec:** [components/avatars.md](components/avatars.md)
 
 ---
 
@@ -136,7 +136,7 @@ All components inherit from [design principles](principles.md):
 
 **Appears on:** All authenticated surfaces. Mobile bottom nav for customer app.
 
-**Phase 2 spec will define:** Active state styling, responsive collapse behavior, sticky positioning.
+→ **Full spec:** [components/navigation.md](components/navigation.md)
 
 ---
 
@@ -153,7 +153,7 @@ All components inherit from [design principles](principles.md):
 
 **Appears on:** Checkout confirmations, dashboard actions, mobile item detail.
 
-**Phase 2 spec will define:** Focus trap, escape behavior, scroll locking, size variants, mobile full-screen behavior.
+→ **Full spec:** [components/modals.md](components/modals.md)
 
 → Accessibility: [accessibility-standards.md](accessibility-standards.md#focus-management)
 
@@ -172,9 +172,24 @@ All components inherit from [design principles](principles.md):
 
 **Appears on:** Any page after async actions. Never for critical errors that require user decision — use inline errors or modals instead.
 
-**Phase 2 spec will define:** Duration, dismiss behavior, stacking, `aria-live` politeness levels, mobile positioning.
+→ **Full spec:** [components/toasts.md](components/toasts.md)
 
 → Voice patterns: [voice-and-tone.md](../../brand/voice-and-tone.md)
+
+---
+
+## Component Specifications
+
+| Component | Spec |
+|-----------|------|
+| Buttons | [components/buttons.md](components/buttons.md) |
+| Inputs | [components/inputs.md](components/inputs.md) |
+| Cards | [components/cards.md](components/cards.md) |
+| Badges | [components/badges.md](components/badges.md) |
+| Avatars | [components/avatars.md](components/avatars.md) |
+| Navigation | [components/navigation.md](components/navigation.md) |
+| Modals | [components/modals.md](components/modals.md) |
+| Toasts | [components/toasts.md](components/toasts.md) |
 
 ---
 

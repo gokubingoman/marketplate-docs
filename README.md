@@ -11,6 +11,7 @@ This repository is not a passive documentation archive. It is the operating syst
 | [Founding Constitution](company/constitution.md) | Governing principles, quality bar, and required structure for all documentation |
 | [Phased Rollout](roadmap/phased-rollout.md) | Documentation roadmap across five phases |
 | [Product Overview](product/overview.md) | What Marketplate is — and what it is not |
+| [Information Architecture](pages/information-architecture.md) | Site map and page inventory (37 screens) |
 
 ### Phase 1 Documents
 
@@ -18,8 +19,14 @@ This repository is not a passive documentation archive. It is the operating syst
 |--------|-------|
 | [Company](company/) | Mission, vision, values, philosophy, glossary |
 | [Brand](brand/) | Strategy, positioning, voice, naming |
-| [Design System](design-system/) | Principles, foundations, components overview |
 | [Product](product/) | Overview, personas, marketplace mechanics, metrics |
+
+### Phase 2 Documents
+
+| Folder | Index |
+|--------|-------|
+| [Pages](pages/) | IA, navigation, 4 user flows, 37 page specs |
+| [Design System](design-system/) | Foundations + 8 component specifications |
 
 ## Repository Structure
 
@@ -51,7 +58,7 @@ This repository is not a passive documentation archive. It is the operating syst
 | Phase | Name | Status |
 |-------|------|--------|
 | 1 | Foundation — company, brand, product | **Complete** |
-| 2 | Design & UX — design system, IA, pages | Not started |
+| 2 | Design & UX — design system, IA, pages | **Complete** |
 | 3 | Engineering — architecture, APIs, infrastructure | Not started |
 | 4 | Operations — SOPs, support, trust & safety | Not started |
 | 5 | Launch — legal, analytics, roadmap, QA | Not started |
