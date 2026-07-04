@@ -14,6 +14,7 @@ This repository is not a passive documentation archive. It is the operating syst
 | [Company Phases](roadmap/company-phases.md) | **15-phase company roadmap** — marketplace is Phase 1 only |
 | [Product Roadmap](roadmap/product-roadmap.md) | Supplementary future capability detail |
 | [Build Readiness](roadmap/build-readiness.md) | What's ready vs missing before launch |
+| [V1 Build Plan](plans/v1-build-plan.md) | **Execution plan** — Week 1 waitlist → Phase 1 → first revenue |
 | [Documentation Gaps](roadmap/documentation-gaps.md) | Phase 5 QA — completeness audit and readiness scores |
 | [Architecture Decisions](decisions/) | 9 Proposed ADRs — founder decisions with options analysis |
 | [Implementation Kickoff](engineering/implementation-kickoff.md) | **Build from docs** — Phase A–E engineering sequence |
@@ -84,6 +85,7 @@ This repository is not a passive documentation archive. It is the operating syst
 | `research/` | Competitive analysis, user research | 5 — Launch |
 | `inspiration/` | Reference products, design inspiration | Ongoing |
 | `roadmap/` | Product roadmap, build readiness, documentation phases | Ongoing |
+| `plans/` | Execution plans (V1 build, waitlist → launch) | Ongoing |
 | `decisions/` | Architecture Decision Records (ADRs) | Ongoing |
 | `diagrams/` | Architecture visuals | Ongoing |
 | `templates/` | Reusable document templates | Ongoing |
