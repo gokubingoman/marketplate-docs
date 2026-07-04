@@ -15,6 +15,20 @@ This document defines Marketplate's product identity at the strategic level. It 
 
 For governing principles and quality standards, see the [Founding Constitution](../company/constitution.md). For mission and long-term ambition, see [Mission](../company/mission.md) and [Vision](../company/vision.md).
 
+For the **15-phase company roadmap** (marketplace → mobile → delivery → Chef OS → AI → enterprise), see [Company Phases](../roadmap/company-phases.md).
+
+---
+
+## Company vs product
+
+| Concept | Meaning |
+|---------|---------|
+| **The company** | Operating system + trusted commerce platform for independent food businesses |
+| **Phase 1 product** | Verified marketplace — browse, buy, sell, trust, payouts |
+| **Long term** | Chef OS, delivery network, AI assistant, financial products, APIs, kitchen network, enterprise |
+
+Every feature must answer: *Does this make independent creators more trusted and more capable of running their business?* The marketplace alone is insufficient; the platform is the moat.
+
 ---
 
 ## What Marketplate Is

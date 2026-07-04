@@ -1,6 +1,6 @@
 # Marketplate Docs
 
-The institutional memory of Marketplate — the trusted marketplace and operating system for independent chefs and local food creators.
+The institutional memory of Marketplate — the **operating system and trusted commerce platform for independent food businesses**. The marketplace is Phase 1; the company is much larger. See [Company Phases](roadmap/company-phases.md).
 
 This repository is not a passive documentation archive. It is the operating system of the company: the canonical knowledge base for engineers, designers, operators, executives, investors, and AI agents.
 
@@ -9,7 +9,11 @@ This repository is not a passive documentation archive. It is the operating syst
 | Document | Purpose |
 |----------|---------|
 | [Founding Constitution](company/constitution.md) | Governing principles, quality bar, and required structure for all documentation |
+| [AI Contributor Constitution](company/ai-contributor-constitution.md) | How AI agents must think and reason on this project |
 | [Phased Rollout](roadmap/phased-rollout.md) | Documentation roadmap across five phases |
+| [Company Phases](roadmap/company-phases.md) | **15-phase company roadmap** — marketplace is Phase 1 only |
+| [Product Roadmap](roadmap/product-roadmap.md) | Supplementary future capability detail |
+| [Build Readiness](roadmap/build-readiness.md) | What's ready vs missing before launch |
 | [Product Overview](product/overview.md) | What Marketplate is — and what it is not |
 | [Information Architecture](pages/information-architecture.md) | Site map and page inventory (37 screens) |
 
@@ -66,7 +70,7 @@ This repository is not a passive documentation archive. It is the operating syst
 | `growth/` | Marketing, acquisition, retention | 5 — Launch |
 | `research/` | Competitive analysis, user research | 5 — Launch |
 | `inspiration/` | Reference products, design inspiration | Ongoing |
-| `roadmap/` | Product and documentation roadmaps | Ongoing |
+| `roadmap/` | Product roadmap, build readiness, documentation phases | Ongoing |
 | `decisions/` | Architecture Decision Records (ADRs) | Ongoing |
 | `templates/` | Reusable document templates | Ongoing |
 | `prompts/` | Agent prompts and AI context | Ongoing |
@@ -80,7 +84,7 @@ This repository is not a passive documentation archive. It is the operating syst
 | 1 | Foundation — company, brand, product | **Complete** |
 | 2 | Design & UX — design system, IA, pages | **Complete** |
 | 3 | Engineering — architecture, APIs, infrastructure | **Complete** |
-| 4 | Operations — SOPs, support, trust & safety | Not started |
+| 4 | Operations — SOPs, support, trust & safety | **Complete** |
 | 5 | Launch — legal, analytics, roadmap, QA | Not started |
 
 ## Documentation Philosophy

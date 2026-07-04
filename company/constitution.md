@@ -16,6 +16,8 @@ Every engineer, designer, operator, executive, investor, and AI agent working on
 
 The verbatim bootstrap prompt lives at [`prompts/founding-constitution.md`](../prompts/founding-constitution.md).
 
+**AI contributors** must also follow the [AI Contributor Constitution](ai-contributor-constitution.md) — how to think and reason, not how to mimic any individual.
+
 ---
 
 ## About Marketplate

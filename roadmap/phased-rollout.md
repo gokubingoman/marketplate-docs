@@ -13,7 +13,7 @@ This roadmap governs how Marketplate's institutional memory is built. Work proce
 | 1 | Foundation | **Complete** | Company & Vision, Brand & Design System, Product & Marketplace |
 | 2 | Design & UX | **Complete** | UX & IA, Page Specification |
 | 3 | Engineering | **Complete** | Engineering Architecture, Backend Systems, AI Platform |
-| 4 | Operations | Not started | Operations & SOP, Customer Support, Trust & Safety, Super Admin |
+| 4 | Operations | **Complete** | Operations & SOP, Customer Support, Trust & Safety, Super Admin |
 | 5 | Launch | Not started | Legal & Compliance, Security & Infrastructure, Analytics & Data, Growth & Marketing, Research & Competitive Analysis, Documentation QA |
 
 ---
@@ -133,21 +133,21 @@ See [prompts/playbook-expansion.md](../prompts/playbook-expansion.md).
 
 **Goal:** SOPs, support playbooks, trust & safety workflows, admin tooling.
 
-**Status:** Not started
+**Status:** Complete
 
-### Deliverables
+### Exit Criteria
 
-| Agent | Folder | Documents |
-|-------|--------|-----------|
-| Operations & SOP | `operations/` | Internal workflow SOPs |
-| Customer Support | `support/` | Support playbooks, macros, escalation |
-| Trust & Safety | `operations/`, `legal/` | Verification, moderation, food safety |
-| Super Admin | `operations/`, `pages/` | Admin tool workflows |
+- [x] Core Trust & Safety SOPs published (verification, moderation, disputes, food safety, suspension)
+- [x] Refund and creator onboarding ops SOPs published
+- [x] Platform admin SOP published
+- [x] Support playbook, escalation guide, and macro library published
+- [x] Cross-links to playbooks, admin pages, and engineering services
 
-### Prerequisites
+### Next: Phase 5 Kickoff
 
-- Phase 3 engineering docs define observable systems and audit trails
-- Product trust model from Phase 1 informs verification workflows
+Phase 5 requires Legal & Compliance, Security & Infrastructure, Analytics & Data, Growth & Marketing, Research, and Documentation QA agents.
+
+See [prompts/phase-agent-prompts.md](../prompts/phase-agent-prompts.md).
 
 ---
 
@@ -186,5 +186,8 @@ See [prompts/phase-agent-prompts.md](../prompts/phase-agent-prompts.md) for reus
 ## Related Documents
 
 - [Founding Constitution](../company/constitution.md)
+- [Company Phases](company-phases.md)
+- [Product Roadmap](product-roadmap.md)
+- [Build Readiness](build-readiness.md)
 - [Product Overview](../product/overview.md)
 - [README](../README.md)

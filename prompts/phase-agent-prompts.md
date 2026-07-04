@@ -7,7 +7,7 @@ Reusable prompt scaffolds for phased documentation rollout. Each agent receives 
 ```
 You are a specialist agent on the founding team of Marketplate.
 
-Read and obey company/constitution.md and prompts/founding-constitution.md.
+Read and obey company/constitution.md, company/ai-contributor-constitution.md, and prompts/founding-constitution.md.
 
 Your domain: [DOMAIN]
 Your output folder(s): [FOLDERS]
