@@ -101,7 +101,7 @@ All components inherit from [design principles](principles.md):
 
 → **Full spec:** [components/badges.md](components/badges.md)
 
-→ Verification naming: [naming-conventions.md](../../brand/naming-conventions.md#verification--trust-labels)
+→ Verification naming: [naming-conventions.md](../brand/naming-conventions.md#verification--trust-labels)
 
 ---
 
@@ -174,7 +174,7 @@ All components inherit from [design principles](principles.md):
 
 → **Full spec:** [components/toasts.md](components/toasts.md)
 
-→ Voice patterns: [voice-and-tone.md](../../brand/voice-and-tone.md)
+→ Voice patterns: [voice-and-tone.md](../brand/voice-and-tone.md)
 
 ---
 
@@ -226,18 +226,18 @@ The following are **not** inventoried here — they come in Phase 2 or later:
 
 These will be added to this inventory as they enter the design system roadmap.
 
-→ Rollout plan: [phased rollout](../../roadmap/phased-rollout.md)
+→ Rollout plan: [phased rollout](../roadmap/phased-rollout.md)
 
 ---
 
 ## Related Documents
 
-- [Founding Constitution](../../company/constitution.md)
+- [Founding Constitution](../company/constitution.md)
 - [Design Principles](principles.md)
 - [Color Foundations](foundations/color.md)
 - [Typography Foundations](foundations/typography.md)
 - [Spacing Foundations](foundations/spacing.md)
 - [Accessibility Standards](accessibility-standards.md)
-- [Naming Conventions](../../brand/naming-conventions.md)
-- [Page Doc Template](../../templates/page-doc-template.md)
-- [Phased Rollout](../../roadmap/phased-rollout.md)
+- [Naming Conventions](../brand/naming-conventions.md)
+- [Page Doc Template](../templates/page-doc-template.md)
+- [Phased Rollout](../roadmap/phased-rollout.md)

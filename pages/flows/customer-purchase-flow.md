@@ -13,9 +13,9 @@
 
 This document maps the **complete customer purchase journey** across pages, decision points, trust surfaces, and system states. It connects discovery (pillar: Discovery) with transparent commerce (pillar: Commerce) and post-purchase accountability (pillar: Trust + Operations).
 
-Page-level layouts belong in individual page specs under `pages/customer/`. Transaction rules: [Marketplace Mechanics — Transactions](../product/marketplace-mechanics.md#transactions).
+Page-level layouts belong in individual page specs under `pages/customer/`. Transaction rules: [Marketplace Mechanics — Transactions](../../product/marketplace-mechanics.md#transactions).
 
-**Primary persona:** [End Customer (Trust-Seeking Buyer)](../product/personas.md#end-customer-trust-seeking-buyer)
+**Primary persona:** [End Customer (Trust-Seeking Buyer)](../../product/personas.md#end-customer-trust-seeking-buyer)
 
 ---
 
@@ -93,7 +93,7 @@ flowchart TD
 
 ### Trust surfaces (non-negotiable)
 
-- Verification badge on every creator card — unverified creators do not appear in results per [Ranking principles](../product/marketplace-mechanics.md#ranking-principles)
+- Verification badge on every creator card — unverified creators do not appear in results per [Ranking principles](../../product/marketplace-mechanics.md#ranking-principles)
 - Rating summary and review count
 - Fulfillment type icon (pickup, delivery, catering, event)
 - Real photography — no stock imagery
@@ -184,7 +184,7 @@ Informed purchase decision before cart — allergens, ingredients, fulfillment, 
 - Breadcrumb: Home / Creator name / Item name
 
 → Page spec: `pages/customer/menu-item-detail`  
-→ Design: [Trust in Design — Allergen info](../design-system/principles.md#trust-in-design)
+→ Design: [Trust in Design — Allergen info](../../design-system/principles.md#trust-in-design)
 
 ---
 
@@ -288,7 +288,7 @@ Complete purchase with **full transparency** before payment — no surprise fees
 - Back from step 1 → Cart
 
 → Page spec: `pages/customer/checkout`  
-→ Mechanics: [Cancellations and refunds](../product/marketplace-mechanics.md#cancellations-and-refunds)
+→ Mechanics: [Cancellations and refunds](../../product/marketplace-mechanics.md#cancellations-and-refunds)
 
 ---
 
@@ -407,7 +407,7 @@ Repeat purchase hub — access past orders, reorder, and track active orders.
 4. View confirmation — review appears on creator storefront after moderation queue
 
 → Creator-side: [Reviews](../information-architecture.md) (`/dashboard/reviews`)  
-→ Mechanics: [Reviews & community](../product/marketplace-mechanics.md#reviews--community)
+→ Mechanics: [Reviews & community](../../product/marketplace-mechanics.md#reviews--community)
 
 ---
 
@@ -437,7 +437,7 @@ The flow above applies to all models with step-level differences:
 | Catering / event | Deposit + date (future) | Event countdown |
 | Pop-up / ticketed | Event date + capacity | Event location details |
 
-→ Full model comparison: [Fulfillment Models](../product/marketplace-mechanics.md#fulfillment-models)
+→ Full model comparison: [Fulfillment Models](../../product/marketplace-mechanics.md#fulfillment-models)
 
 ---
 
@@ -450,7 +450,7 @@ The flow above applies to all models with step-level differences:
 | Post-confirm | Calendar add reduces no-show |
 | Completed without review | Single reminder at day 7; no nagging |
 
-Copy follows calm tone — no artificial urgency per [Voice and Tone](../brand/voice-and-tone.md).
+Copy follows calm tone — no artificial urgency per [Voice and Tone](../../brand/voice-and-tone.md).
 
 ---
 
@@ -464,7 +464,7 @@ Copy follows calm tone — no artificial urgency per [Voice and Tone](../brand/v
 | Time-to-trust | First visit → first completed order |
 | Repeat purchase rate | Second order within 60 days |
 
-→ [Customer Metrics](../product/success-metrics-overview.md#customer-metrics)
+→ [Customer Metrics](../../product/success-metrics-overview.md#customer-metrics)
 
 ---
 
@@ -493,9 +493,9 @@ Copy follows calm tone — no artificial urgency per [Voice and Tone](../brand/v
 - [Information Architecture](../information-architecture.md)
 - [Navigation Model](../navigation-model.md)
 - [Order Fulfillment Flow](order-fulfillment-flow.md)
-- [Product Overview](../product/overview.md)
-- [Personas](../product/personas.md)
-- [Marketplace Mechanics](../product/marketplace-mechanics.md)
-- [Design System Principles](../design-system/principles.md)
-- [Voice and Tone](../brand/voice-and-tone.md)
+- [Product Overview](../../product/overview.md)
+- [Personas](../../product/personas.md)
+- [Marketplace Mechanics](../../product/marketplace-mechanics.md)
+- [Design System Principles](../../design-system/principles.md)
+- [Voice and Tone](../../brand/voice-and-tone.md)
 - [Pages README](../README.md)

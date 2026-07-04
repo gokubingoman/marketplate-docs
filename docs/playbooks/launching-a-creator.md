@@ -14,7 +14,7 @@
 
 This playbook orchestrates the **supply-side activation funnel** — the journey from a creator expressing interest to a verified operator receiving and fulfilling their first order. It is not a single verification SOP; it coordinates Product, Trust & Safety, Creator Success, Engineering, and Marketing across product surfaces, backend services, and operational workflows.
 
-**Governing thesis:** [Trust is our product](../company/values.md#1-trust-is-the-product). Unverified creators cannot accept paid orders — [Marketplace Mechanics — Verified to sell](../product/marketplace-mechanics.md#marketplace-model-overview).
+**Governing thesis:** [Trust is our product](../../company/values.md#1-trust-is-the-product). Unverified creators cannot accept paid orders — [Marketplace Mechanics — Verified to sell](../../product/marketplace-mechanics.md#marketplace-model-overview).
 
 **Primary flow reference:** [Creator Onboarding Flow](../../pages/flows/creator-onboarding-flow.md)
 
@@ -63,7 +63,7 @@ Before a creator can go live, the following must be in place:
 | Creator-facing docs published | Creator Ops | [Chef Welcome Package](../onboarding/chef-welcome-package.md) live |
 | Notification templates configured | Product + Ops | Approve/reject/request-info emails in Notification Service |
 
-**Future SOPs:** Detailed verification checklists → [`operations/trust-and-safety/verification/`](../../operations/) *(Phase 4)*
+**Companion SOPs:** [Verification Review SOP](../../operations/verification-review-sop.md) · [Creator Onboarding Ops SOP](../../operations/creator-onboarding-ops-sop.md)
 
 ---
 

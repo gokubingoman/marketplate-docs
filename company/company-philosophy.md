@@ -167,7 +167,7 @@ Visual identity, color, typography, and components live in [`design-system/`](..
 - Designing desktop-first for workflows creators perform on phones
 - Custom one-off components when design system components exist
 
-→ Design system: [Design Principles](../design-system/principles.md) · [Accessibility](../design-system/accessibility.md)
+→ Design system: [Design Principles](../design-system/principles.md) · [Accessibility](../design-system/accessibility-standards.md)
 
 ---
 

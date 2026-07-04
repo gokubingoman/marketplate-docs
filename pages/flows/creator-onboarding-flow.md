@@ -13,10 +13,10 @@
 
 This document maps how independent food creators **join Marketplate, earn verified status, publish their first listing, and receive their first order**. Onboarding is a trust gate — not a signup form. Unverified creators cannot accept paid orders.
 
-**Primary persona:** [Independent Chef](../product/personas.md#independent-chef)  
-**Secondary personas:** [Cottage Food Operator](../product/personas.md#cottage-food-operator), [Baker](../product/personas.md#baker), [Commercial Kitchen Operator](../product/personas.md#commercial-kitchen-operator)
+**Primary persona:** [Independent Chef](../../product/personas.md#independent-chef)  
+**Secondary personas:** [Cottage Food Operator](../../product/personas.md#cottage-food-operator), [Baker](../../product/personas.md#baker), [Commercial Kitchen Operator](../../product/personas.md#commercial-kitchen-operator)
 
-Governing rules: [Marketplace Mechanics — Trust Model](../product/marketplace-mechanics.md#trust-model) · [Verified to sell](../product/marketplace-mechanics.md#marketplace-model-overview)
+Governing rules: [Marketplace Mechanics — Trust Model](../../product/marketplace-mechanics.md#trust-model) · [Verified to sell](../../product/marketplace-mechanics.md#marketplace-model-overview)
 
 ---
 
@@ -150,7 +150,7 @@ Confirm creator is a real, accountable operator. Customers see "Verified Creator
 
 ### AI assist
 
-Document extraction and mismatch flagging — **human approves** final status per [AI Philosophy](../company/constitution.md#ai-philosophy).
+Document extraction and mismatch flagging — **human approves** final status per [AI Philosophy](../../company/constitution.md#ai-philosophy).
 
 → Page spec: `pages/auth/identity-verification`  
 → Internal review: [Trust Verification Flow](trust-verification-flow.md)
@@ -185,7 +185,7 @@ Confirm where food is produced. Every SKU must link to a verified production loc
 
 ### Multi-tenant path
 
-Commercial kitchens verified once at facility level. Tenants link to pre-verified kitchen — reduced per-tenant friction. See [Commercial Kitchen Operator](../product/personas.md#commercial-kitchen-operator).
+Commercial kitchens verified once at facility level. Tenants link to pre-verified kitchen — reduced per-tenant friction. See [Commercial Kitchen Operator](../../product/personas.md#commercial-kitchen-operator).
 
 ### Status states
 
@@ -406,7 +406,7 @@ System blocks checkout for customers if no valid fulfillment window exists.
 | Rejected | Email + in-app | Clear reason + appeal |
 | First order | Push + email | Action-oriented |
 
-→ [Voice and Tone — Customer Support](../brand/voice-and-tone.md#customer-support)
+→ [Voice and Tone — Customer Support](../../brand/voice-and-tone.md#customer-support)
 
 ---
 
@@ -421,7 +421,7 @@ System blocks checkout for customers if no valid fulfillment window exists.
 | First listing → first order | Activation velocity |
 | Verification abandonment | Drop-off by step |
 
-→ [Creator Metrics](../product/success-metrics-overview.md#creator-metrics) · [Trust Metrics](../product/success-metrics-overview.md#trust-metrics)
+→ [Creator Metrics](../../product/success-metrics-overview.md#creator-metrics) · [Trust Metrics](../../product/success-metrics-overview.md#trust-metrics)
 
 ---
 
@@ -451,10 +451,10 @@ System blocks checkout for customers if no valid fulfillment window exists.
 - [Trust Verification Flow](trust-verification-flow.md)
 - [Order Fulfillment Flow](order-fulfillment-flow.md)
 - [Customer Purchase Flow](customer-purchase-flow.md)
-- [Product Overview](../product/overview.md)
-- [Personas](../product/personas.md)
-- [Marketplace Mechanics](../product/marketplace-mechanics.md)
-- [Founding Constitution](../company/constitution.md)
-- [Design System Principles](../design-system/principles.md)
-- [Voice and Tone](../brand/voice-and-tone.md)
+- [Product Overview](../../product/overview.md)
+- [Personas](../../product/personas.md)
+- [Marketplace Mechanics](../../product/marketplace-mechanics.md)
+- [Founding Constitution](../../company/constitution.md)
+- [Design System Principles](../../design-system/principles.md)
+- [Voice and Tone](../../brand/voice-and-tone.md)
 - [Pages README](../README.md)

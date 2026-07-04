@@ -13,10 +13,10 @@
 
 This document defines the **order lifecycle** as experienced by creators (production queue) and customers (tracking), with explicit state transitions, actions, notifications, and edge cases.
 
-Order states derive from [Marketplace Mechanics — Order lifecycle](../product/marketplace-mechanics.md#order-lifecycle). This flow is the operational bridge between Commerce and Operations pillars.
+Order states derive from [Marketplace Mechanics — Order lifecycle](../../product/marketplace-mechanics.md#order-lifecycle). This flow is the operational bridge between Commerce and Operations pillars.
 
-**Primary personas:** [Independent Chef](../product/personas.md#independent-chef) (creator) · [End Customer (Trust-Seeking Buyer)](../product/personas.md#end-customer-trust-seeking-buyer) (customer)  
-**Secondary personas:** [Meal Prep Business](../product/personas.md#meal-prep-business), [Food Truck Operator](../product/personas.md#food-truck-operator), [Baker](../product/personas.md#baker)
+**Primary personas:** [Independent Chef](../../product/personas.md#independent-chef) (creator) · [End Customer (Trust-Seeking Buyer)](../../product/personas.md#end-customer-trust-seeking-buyer) (customer)  
+**Secondary personas:** [Meal Prep Business](../../product/personas.md#meal-prep-business), [Food Truck Operator](../../product/personas.md#food-truck-operator), [Baker](../../product/personas.md#baker)
 
 ---
 
@@ -205,7 +205,7 @@ If creator anticipates delay:
 2. Chronic delays affect creator reliability metrics
 3. Material delay without update → customer can contact support via Help
 
-→ [Voice and Tone — Precise timing](../brand/voice-and-tone.md#3-precise)
+→ [Voice and Tone — Precise timing](../../brand/voice-and-tone.md#3-precise)
 
 ---
 
@@ -279,7 +279,7 @@ Customer pickup — transition **Ready → Completed** directly at handoff.
 
 - In-app on Order Detail
 - Email at completion + reminder at day 7 (single)
-- Verified purchase only — see [Reviews & community](../product/marketplace-mechanics.md#reviews--community)
+- Verified purchase only — see [Reviews & community](../../product/marketplace-mechanics.md#reviews--community)
 
 ### Creator review visibility
 
@@ -315,7 +315,7 @@ Reviews appear on [Reviews](../information-architecture.md) (`/dashboard/reviews
 
 Unresolved refund disputes escalate to [Dispute Detail](../information-architecture.md) (`/admin/disputes/:disputeId`) — see admin flow.
 
-→ [Cancellations and refunds](../product/marketplace-mechanics.md#cancellations-and-refunds)
+→ [Cancellations and refunds](../../product/marketplace-mechanics.md#cancellations-and-refunds)
 
 ---
 
@@ -400,7 +400,7 @@ Vertical timeline with completed steps checked, current step highlighted, future
 | Catering / event | Confirmed weeks ahead; production starts near event date |
 | Pop-up / ticketed | Ready = check-in at event; capacity enforced at checkout |
 
-→ [Fulfillment Models](../product/marketplace-mechanics.md#fulfillment-models)
+→ [Fulfillment Models](../../product/marketplace-mechanics.md#fulfillment-models)
 
 ---
 
@@ -430,7 +430,7 @@ Vertical timeline with completed steps checked, current step highlighted, future
 | Cancelled | Email | Push, email |
 | Refund processed | — | Email |
 
-All notifications use precise timing and order numbers — [Voice and Tone](../brand/voice-and-tone.md).
+All notifications use precise timing and order numbers — [Voice and Tone](../../brand/voice-and-tone.md).
 
 ---
 
@@ -445,7 +445,7 @@ All notifications use precise timing and order numbers — [Voice and Tone](../b
 | Cancellation rate | Both | Cancelled / Total orders |
 | Customer support contact rate | Platform | Support tickets per order |
 
-→ [Creator Metrics](../product/success-metrics-overview.md#creator-metrics) · [Customer Metrics](../product/success-metrics-overview.md#customer-metrics)
+→ [Creator Metrics](../../product/success-metrics-overview.md#creator-metrics) · [Customer Metrics](../../product/success-metrics-overview.md#customer-metrics)
 
 ---
 
@@ -470,9 +470,9 @@ All notifications use precise timing and order numbers — [Voice and Tone](../b
 - [Customer Purchase Flow](customer-purchase-flow.md)
 - [Creator Onboarding Flow](creator-onboarding-flow.md)
 - [Trust Verification Flow](trust-verification-flow.md)
-- [Product Overview](../product/overview.md)
-- [Personas](../product/personas.md)
-- [Marketplace Mechanics](../product/marketplace-mechanics.md)
-- [Design System Principles](../design-system/principles.md)
-- [Voice and Tone](../brand/voice-and-tone.md)
+- [Product Overview](../../product/overview.md)
+- [Personas](../../product/personas.md)
+- [Marketplace Mechanics](../../product/marketplace-mechanics.md)
+- [Design System Principles](../../design-system/principles.md)
+- [Voice and Tone](../../brand/voice-and-tone.md)
 - [Pages README](../README.md)

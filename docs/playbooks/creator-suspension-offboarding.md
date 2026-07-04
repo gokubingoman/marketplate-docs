@@ -400,4 +400,4 @@ We're grateful you were part of Marketplate. If you return to selling in the fut
 - [Launching a Creator](launching-a-creator.md)
 
 ### Future SOPs
-- [`operations/trust-and-safety/enforcement/`](../../operations/) *(Phase 4)*
+- [Operations SOPs](../../operations/) *(Phase 4)*

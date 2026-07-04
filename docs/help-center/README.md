@@ -171,7 +171,7 @@ Help article → Contact support form → Support specialist → Trust & Safety 
 | Account security | Account security | 4 hours | **Priority** |
 | Harassment / policy violation | Trust & safety report | 24 hours | Elevated |
 
-Full escalation procedures: [contact-support.md](contact-support.md). Operations SOPs: [`operations/`](../operations/) *(Phase 4)*.
+Full escalation procedures: [contact-support.md](contact-support.md). Operations SOPs: [`operations/`](../../operations/) *(Phase 4)*.
 
 ### When to contact support vs. creator
 

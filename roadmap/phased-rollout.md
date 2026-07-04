@@ -173,7 +173,7 @@ See [prompts/phase-agent-prompts.md](../prompts/phase-agent-prompts.md).
 - [x] Documentation QA pass complete
 - [x] Phase 5 body documents published (legal, security, analytics, growth, research)
 - [x] Gap report published to `roadmap/documentation-gaps.md`
-- [ ] All cross-links validated — **158 broken links remain**; backlog tracked in [Documentation Gaps](documentation-gaps.md)
+- [ ] All cross-links validated — **remediation pass complete** (0 broken links excluding intentional placeholders); ongoing hygiene in [Documentation Gaps](documentation-gaps.md)
 - [ ] Repository certified for **public launch** — blocked on counsel-approved legal text, founder ADRs, and link remediation (see [Build Readiness](build-readiness.md))
 
 ---

@@ -27,7 +27,7 @@ These tokens implement [design principles](../principles.md) and meet [accessibi
 | Trust | Stable, cool-leaning primary; verification uses distinct trust hue |
 | Food-forward | Photography and creator content provide color; UI stays neutral |
 
-TODO(decision): Final brand primary hue — current foundation uses a deep teal-blue direction aligned with trust and freshness. Confirm against logo development in [`assets/`](../assets/).
+TODO(decision): Final brand primary hue — current foundation uses a deep teal-blue direction aligned with trust and freshness. Confirm against logo development in [`assets/`](../../assets/README.md).
 
 ---
 

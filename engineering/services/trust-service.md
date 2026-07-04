@@ -209,7 +209,7 @@ Document access (preview, download) logged for compliance. PII in logs restricte
 | Immutable audit | [AuditLog](../data/core-entities.md#auditlog) — insert only |
 | Encryption | Documents encrypted at rest (SSE-S3 or KMS) |
 
-Full document handling: [Data Protection — Verification documents](data-protection.md#verification-document-handling). Access controls: [Access Control](access-control.md).
+Full document handling: [Data Protection — Verification documents](../data-protection.md#verification-document-handling). Access controls: [Access Control](../access-control.md).
 
 Hardcoded invariants enforced at API layer:
 - `verification.human_approval_required: true`

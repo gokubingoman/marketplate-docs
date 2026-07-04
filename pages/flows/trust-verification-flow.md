@@ -13,10 +13,10 @@
 
 This document maps the **internal Trust & Safety workflow** for reviewing creator identity, kitchen, and compliance submissions. It covers operator actions, AI assist boundaries, creator-facing status updates, and audit requirements.
 
-**Primary persona:** [Platform Operations (Internal)](../product/personas.md#platform-operations-internal)  
-**Affected persona:** All creator types — especially [Cottage Food Operator](../product/personas.md#cottage-food-operator) and [Commercial Kitchen Operator](../product/personas.md#commercial-kitchen-operator)
+**Primary persona:** [Platform Operations (Internal)](../../product/personas.md#platform-operations-internal)  
+**Affected persona:** All creator types — especially [Cottage Food Operator](../../product/personas.md#cottage-food-operator) and [Commercial Kitchen Operator](../../product/personas.md#commercial-kitchen-operator)
 
-Governing principles: [Trust Philosophy](../company/constitution.md#trust-philosophy) · [AI Philosophy](../company/constitution.md#ai-philosophy) — **AI recommends. Humans approve.**
+Governing principles: [Trust Philosophy](../../company/constitution.md#trust-philosophy) · [AI Philosophy](../../company/constitution.md#ai-philosophy) — **AI recommends. Humans approve.**
 
 Creator-facing onboarding context: [Creator Onboarding Flow](creator-onboarding-flow.md)
 
@@ -120,7 +120,7 @@ Before entering queue:
 
 ## Phase 2 — AI Pre-Processing
 
-AI assists — does not decide. Per [AI Philosophy](../company/constitution.md#ai-philosophy):
+AI assists — does not decide. Per [AI Philosophy](../../company/constitution.md#ai-philosophy):
 
 | AI output | Operator use |
 |-----------|--------------|
@@ -134,7 +134,7 @@ AI assists — does not decide. Per [AI Philosophy](../company/constitution.md#a
 
 All AI outputs logged with model version and confidence. Operator can override any AI suggestion.
 
-→ AI docs: [`ai/`](../ai/) *(Phase 3)*
+→ AI docs: [`ai/`](../../ai/) *(Phase 3)*
 
 ---
 
@@ -336,7 +336,7 @@ Three outcomes — every decision requires rationale text (min 20 characters) ex
 - Timeline — when to expect re-review after resubmit
 - Appeal path for reject — link to Help with case ID
 
-→ [Voice and Tone — Customer Support](../brand/voice-and-tone.md#customer-support)
+→ [Voice and Tone — Customer Support](../../brand/voice-and-tone.md#customer-support)
 
 ### Creator-facing status sync
 
@@ -392,7 +392,7 @@ Verification-adjacent disputes (e.g., allergen mislabeling confirmed post-order)
 - Verification history visible in case sidebar
 - Enforcement ladder may trigger re-verification or suspension
 
-→ [Trust enforcement ladder](../product/marketplace-mechanics.md#trust-enforcement-ladder)  
+→ [Trust enforcement ladder](../../product/marketplace-mechanics.md#trust-enforcement-ladder)  
 → Page spec: `pages/admin/dispute-detail`
 
 ---
@@ -413,7 +413,7 @@ SLA breach triggers:
 2. Automated supervisor notification
 3. Proactive creator email if no decision imminent
 
-Full SOPs: [`operations/`](../operations/) *(Phase 4)*
+Full SOPs: [`operations/`](../../operations/) *(Phase 4)*
 
 ---
 
@@ -491,7 +491,7 @@ Admin-configurable verification parameters:
 | Queue depth | Stable under SLA |
 | Operator cases per hour | Baseline for staffing |
 
-→ [Trust Metrics](../product/success-metrics-overview.md#trust-metrics) · [Platform Health Metrics](../product/success-metrics-overview.md#platform-health-metrics)
+→ [Trust Metrics](../../product/success-metrics-overview.md#trust-metrics) · [Platform Health Metrics](../../product/success-metrics-overview.md#platform-health-metrics)
 
 ---
 
@@ -529,10 +529,10 @@ Admin-configurable verification parameters:
 - [Navigation Model](../navigation-model.md)
 - [Creator Onboarding Flow](creator-onboarding-flow.md)
 - [Order Fulfillment Flow](order-fulfillment-flow.md)
-- [Product Overview](../product/overview.md)
-- [Personas](../product/personas.md)
-- [Marketplace Mechanics](../product/marketplace-mechanics.md)
-- [Founding Constitution](../company/constitution.md)
-- [Design System Principles](../design-system/principles.md)
-- [Voice and Tone](../brand/voice-and-tone.md)
+- [Product Overview](../../product/overview.md)
+- [Personas](../../product/personas.md)
+- [Marketplace Mechanics](../../product/marketplace-mechanics.md)
+- [Founding Constitution](../../company/constitution.md)
+- [Design System Principles](../../design-system/principles.md)
+- [Voice and Tone](../../brand/voice-and-tone.md)
 - [Pages README](../README.md)

@@ -16,7 +16,7 @@ This playbook orchestrates Marketplate's response to **fraud** — fraudulent id
 
 **Governing principles:** [Human approval on high stakes](../../product/marketplace-mechanics.md#marketplace-model-overview) · [Verification Assist fraud flags](../../ai/verification-assist.md) · Permanent removal for confirmed fraudulent identity per [Trust enforcement ladder](../../product/marketplace-mechanics.md#trust-enforcement-ladder).
 
-AI detects and flags; humans investigate and enforce — [Humans Decide; AI Assists](../company/values.md#7-humans-decide-ai-assists).
+AI detects and flags; humans investigate and enforce — [Humans Decide; AI Assists](../../company/values.md#7-humans-decide-ai-assists).
 
 ---
 
@@ -65,7 +65,7 @@ AI detects and flags; humans investigate and enforce — [Humans Decide; AI Assi
 | Audit log export capability | Admin Console |
 | Junior operators cannot approve fraud-flagged cases | RBAC enforced |
 
-**Future SOPs:** Identity fraud investigation, payout fraud → [`operations/trust-and-safety/fraud/`](../../operations/) *(Phase 4)*
+**Companion SOPs:** [Fraud Investigation SOP](../../operations/fraud-investigation-sop.md) · [Payout Processing SOP](../../operations/payout-processing-sop.md)
 
 ---
 

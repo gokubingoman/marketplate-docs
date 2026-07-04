@@ -387,4 +387,4 @@ This document drives implementation across domains:
 - [Legal](../legal/) *(Phase 5)*
 - [Engineering](../engineering/) *(Phase 3)*
 - [Analytics](../analytics/) *(Phase 5)*
-- [Trust & Safety SOPs](../operations/trust-and-safety/) *(Phase 4)*
+- [Trust & Safety SOPs](../operations/) *(Phase 4)*

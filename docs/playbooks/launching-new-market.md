@@ -190,7 +190,7 @@ Before market launch commit:
 |----------|-------|---------|---------|
 | Enter market | Executive sponsor | Go · No-go · Defer | No-go if legal blocking issue |
 | Soft vs. public launch timing | Market Launch Lead | Extend soft · Proceed · Pause | Extend if supply < 25 verified |
-| Lower verification bar to accelerate supply | Trust Lead | **Never** · Standard process | Never — [Values — Trust Is the Product](../company/values.md#1-trust-is-the-product) |
+| Lower verification bar to accelerate supply | Trust Lead | **Never** · Standard process | Never — [Values — Trust Is the Product](../../company/values.md#1-trust-is-the-product) |
 | Geographic boundary | Product + Legal | MSA · County · State-wide | Document in ADR |
 | Partner exclusivity with commercial kitchen | Business Dev + Legal | Exclusive · Non-exclusive | Legal review required |
 | Pause market (trust incident cluster) | Trust Lead + Market Launch Lead | Full pause · Creator-only pause | See [Trust & Safety Escalation](trust-safety-escalation.md) |

@@ -104,7 +104,7 @@ Visible on keyboard focus only. First focusable element on every page.
 
 ## Keyboard Patterns
 
-All components in [components-overview.md](../components-overview.md) must support these patterns:
+All components in [components-overview.md](./components-overview.md) must support these patterns:
 
 | Component | Keys |
 |-----------|------|
@@ -209,7 +209,7 @@ Checkout flows include an explicit allergen acknowledgment checkbox with associa
 | Group labels | Related fields use `<fieldset>` + `<legend>` |
 | Autocomplete | Use appropriate `autocomplete` attributes (name, email, address) |
 
-Error copy follows [voice and tone](../../brand/voice-and-tone.md#error-messages): specific, actionable, calm.
+Error copy follows [voice and tone](../brand/voice-and-tone.md#error-messages): specific, actionable, calm.
 
 ---
 
@@ -256,7 +256,7 @@ Document test results in page specs → [`pages/`](../pages/) *(Phase 2)*.
 
 ## Accessibility in Page Specs
 
-Every page document must include an Accessibility section per [page doc template](../../templates/page-doc-template.md):
+Every page document must include an Accessibility section per [page doc template](../templates/page-doc-template.md):
 
 - Heading structure
 - Focus management on load and interaction
@@ -268,11 +268,11 @@ Every page document must include an Accessibility section per [page doc template
 
 ## Related Documents
 
-- [Founding Constitution](../../company/constitution.md)
+- [Founding Constitution](../company/constitution.md)
 - [Design Principles](principles.md)
 - [Color Foundations](foundations/color.md)
 - [Typography Foundations](foundations/typography.md)
 - [Spacing Foundations](foundations/spacing.md)
-- [Components Overview](../components-overview.md)
-- [Voice and Tone — Error Messages](../../brand/voice-and-tone.md#error-messages)
-- [Page Doc Template](../../templates/page-doc-template.md)
+- [Components Overview](./components-overview.md)
+- [Voice and Tone — Error Messages](../brand/voice-and-tone.md#error-messages)
+- [Page Doc Template](../templates/page-doc-template.md)

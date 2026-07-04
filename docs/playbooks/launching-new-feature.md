@@ -12,11 +12,11 @@
 
 ## Purpose
 
-This playbook orchestrates **feature launch** from specification through production rollout, operational readiness, and post-launch measurement. Marketplate follows a docs-first culture: [Documentation Is Production Code](../company/values.md#6-documentation-is-production-code). A feature is not done until pages, engineering services, operations SOPs (where applicable), Help content, and training are aligned.
+This playbook orchestrates **feature launch** from specification through production rollout, operational readiness, and post-launch measurement. Marketplate follows a docs-first culture: [Documentation Is Production Code](../../company/values.md#6-documentation-is-production-code). A feature is not done until pages, engineering services, operations SOPs (where applicable), Help content, and training are aligned.
 
 This is not a deployment runbook alone. It coordinates Product, Engineering, Design, Trust & Safety, Operations, Support, and Analytics — with explicit trust impact review for any customer- or creator-facing change.
 
-**Governing bar:** [Quality Over Volume](../company/values.md#2-quality-over-volume) — cut scope before cutting quality.
+**Governing bar:** [Quality Over Volume](../../company/values.md#2-quality-over-volume) — cut scope before cutting quality.
 
 ---
 
@@ -194,7 +194,7 @@ Before development starts:
 
 | Decision | Owner | Options | Default |
 |----------|-------|---------|---------|
-| Ship vs. delay (trust concern) | Trust Lead + PM | Delay · Ship with mitigation · Cut scope | Delay if trust weakened — [Values](../company/values.md#1-trust-is-the-product) |
+| Ship vs. delay (trust concern) | Trust Lead + PM | Delay · Ship with mitigation · Cut scope | Delay if trust weakened — [Values](../../company/values.md#1-trust-is-the-product) |
 | Beta vs. direct GA | PM | Beta · GA · Internal only | Beta for high-trust or creator-workflow changes |
 | Rollback | Eng on-call + PM | Rollback flag · Hotfix forward | Rollback if P0/P1; hotfix if isolated |
 | SOP required | Trust Lead | Yes · No | Yes for any operator workflow change |
@@ -298,7 +298,7 @@ Pre-read: [Spec link] · [Trust impact memo if applicable]
 ## Related Documents
 
 ### Standards & process
-- [Company Values — Documentation Is Production Code](../company/values.md#6-documentation-is-production-code)
+- [Company Values — Documentation Is Production Code](../../company/values.md#6-documentation-is-production-code)
 - [docs/standards/](../standards/)
 - [Design System Principles](../../design-system/principles.md)
 - [Brand Voice & Tone](../../brand/voice-and-tone.md)

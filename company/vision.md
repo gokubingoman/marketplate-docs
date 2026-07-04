@@ -12,11 +12,11 @@
 
 We are **not** building "Uber Eats for home chefs" or "Etsy for home-cooked food" as the end state.
 
-We are building **infrastructure that powers independent food businesses** — from discovery and trust to operations, AI, finance, and growth. The marketplace validates transactions and proves trust; the company expands across [15 product phases](roadmap/company-phases.md) into Chef OS, delivery network, financial products, APIs, and enterprise.
+We are building **infrastructure that powers independent food businesses** — from discovery and trust to operations, AI, finance, and growth. The marketplace validates transactions and proves trust; the company expands across [15 product phases](../roadmap/company-phases.md) into Chef OS, delivery network, financial products, APIs, and enterprise.
 
 **The biggest strategic shift:** The marketplace is the first product. The long-term business is the platform.
 
-Full phase map: [Company Phases](roadmap/company-phases.md)
+Full phase map: [Company Phases](../roadmap/company-phases.md)
 
 ---
 

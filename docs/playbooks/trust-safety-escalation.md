@@ -20,7 +20,7 @@ Use specialized playbooks for detailed execution:
 - [Fraud Response](fraud-response.md)
 - [Creator Suspension & Offboarding](creator-suspension-offboarding.md)
 
-**Governing thesis:** When values conflict, **trust wins** — [Company Values](../company/values.md#using-values-in-decisions).
+**Governing thesis:** When values conflict, **trust wins** — [Company Values](../../company/values.md#using-values-in-decisions).
 
 ---
 
@@ -202,7 +202,7 @@ IC ensures containment actions from specialized playbook are underway:
 | Law enforcement data production | Legal | Founder informed |
 | Incident close vs. monitor | IC | Trust Lead sign-off for P0 |
 
-**Values decision sequence** (from [Company Values](../company/values.md#using-values-in-decisions)):
+**Values decision sequence** (from [Company Values](../../company/values.md#using-values-in-decisions)):
 
 1. Trust check
 2. Creator check (legitimate creators harmed by incident response?)
@@ -340,7 +340,7 @@ Questions: [press contact — Legal provides]
 
 ### Governance
 - [Founding Constitution — Trust Philosophy](../../company/constitution.md#trust-philosophy)
-- [Company Values — Using Values in Decisions](../company/values.md#using-values-in-decisions)
+- [Company Values — Using Values in Decisions](../../company/values.md#using-values-in-decisions)
 - [Marketplace Mechanics — Trust enforcement ladder](../../product/marketplace-mechanics.md#trust-enforcement-ladder)
 
 ### Engineering
@@ -358,4 +358,4 @@ Questions: [press contact — Legal provides]
 - [Launching a New Market](launching-new-market.md)
 
 ### Future SOPs
-- [`operations/trust-and-safety/escalation/`](../../operations/) *(Phase 4)*
+- [Operations SOPs](../../operations/) *(Phase 4)*

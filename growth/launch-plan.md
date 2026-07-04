@@ -94,7 +94,7 @@ flowchart LR
 | T6 | Trust & Safety onboarding complete for operators | Trust | ☐ |
 | T7 | All marketing trust claims reviewed and approved | Trust + Marketing | ☐ |
 
-→ SOPs: [operations/](../operations/) · [Trust Verification Flow](../pages/flows/trust-verification-flow.md)
+→ SOPs: [Marketplace Launch Ops SOP](../operations/marketplace-launch-ops-sop.md) · [operations/](../operations/) · [Trust Verification Flow](../pages/flows/trust-verification-flow.md)
 
 ### Supply (creators)
 

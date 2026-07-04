@@ -14,7 +14,7 @@
 
 This playbook orchestrates **internal employee onboarding** across People Ops, IT, Security, team leads, and domain owners. It ensures every new teammate can operate Marketplate systems safely — especially trust-critical admin surfaces — and understands the company thesis before touching creator or customer data.
 
-**Governing values:** [Operational Excellence Is Respect](../company/values.md#5-operational-excellence-is-respect) · [Documentation Is Production Code](../company/values.md#6-documentation-is-production-code) · [Humans Decide; AI Assists](../company/values.md#7-humans-decide-ai-assists)
+**Governing values:** [Operational Excellence Is Respect](../../company/values.md#5-operational-excellence-is-respect) · [Documentation Is Production Code](../../company/values.md#6-documentation-is-production-code) · [Humans Decide; AI Assists](../../company/values.md#7-humans-decide-ai-assists)
 
 This is not an IT ticket checklist alone. It coordinates role-specific training paths, admin access provisioning with least privilege, and 30/60/90-day success criteria.
 

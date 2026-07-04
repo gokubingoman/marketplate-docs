@@ -12,7 +12,7 @@
 
 ## Purpose
 
-This playbook orchestrates Marketplate's response when a **food safety incident** is reported or discovered — including allergen mislabeling, contamination, illness claims, unverified production locations, or expired compliance operating without suspension. Food safety incidents directly threaten the trust thesis: [Trust is the product](../company/values.md#1-trust-is-the-product).
+This playbook orchestrates Marketplate's response when a **food safety incident** is reported or discovered — including allergen mislabeling, contamination, illness claims, unverified production locations, or expired compliance operating without suspension. Food safety incidents directly threaten the trust thesis: [Trust is the product](../../company/values.md#1-trust-is-the-product).
 
 This is not a single support ticket SOP. It coordinates Trust & Safety, Legal, Engineering, Creator Ops, Customer Support, and Communications across order data, verification history, enforcement actions, and customer/creator notifications.
 
@@ -67,7 +67,7 @@ This is not a single support ticket SOP. It coordinates Trust & Safety, Legal, E
 | Health authority jurisdiction contacts documented | Legal ops binder |
 | Platform force-cancel capability tested | Order Service + Payment integration |
 
-**Future SOPs:** Allergen mislabeling SOP, illness report SOP → [`operations/trust-and-safety/incidents/`](../../operations/) *(Phase 4)*
+**Companion SOP:** [Food Safety Incident SOP](../../operations/food-safety-incident-sop.md)
 
 ---
 

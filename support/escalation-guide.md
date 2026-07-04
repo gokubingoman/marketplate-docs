@@ -65,7 +65,7 @@ Aligned with [Trust & Safety Escalation — Severity Classification](../docs/pla
 | Media / social escalation on trust issue | T&S + Comms + Legal | IC ≤1 hr | [T&S Escalation](../docs/playbooks/trust-safety-escalation.md) |
 | 3+ similar incidents same creator/region (72h) | T&S | Pattern review ≤4 hr | [T&S Escalation](../docs/playbooks/trust-safety-escalation.md) |
 | Refund dispute > policy threshold | Ops + Support Lead | Same day | [Dispute Resolution](../operations/README.md) |
-| Payout missing > 2× documented SLA | Ops | Same day | [Payment Service](../engineering/services/payment-service.md) |
+| Payout missing > 2× documented SLA | Finance | Same day | [Payout Processing SOP](../operations/payout-processing-sop.md) |
 
 ---
 

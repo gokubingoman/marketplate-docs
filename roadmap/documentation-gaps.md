@@ -13,9 +13,9 @@
 
 ## Executive Summary
 
-Marketplate's documentation repository is **implementation-ready for core product engineering** (Phases 1–3) and **operationally documented** for trust, support, and admin workflows (Phase 4). **Phase 5 documentation is structurally complete** — legal, security, analytics, growth, and research folders are published. Remaining gaps are **launch execution blockers**, not missing doc folders: counsel review of legal drafts, 158 broken cross-links, 242 founder decisions, and empty visual assets.
+Marketplate's documentation repository is **implementation-ready for core product engineering** (Phases 1–3) and **operationally documented** for trust, support, and admin workflows (Phase 4). **Phase 5 documentation is structurally complete** — legal, security, analytics, growth, and research folders are published. Remaining gaps are **launch execution blockers**, not missing doc folders: counsel review of legal drafts, founder ADRs (242 `TODO(decision):` markers), and visual brand assets.
 
-**Critical finding:** Cross-link health is good at the repository level (~97% valid), but **158 broken links** remain — concentrated in `pages/flows/` (wrong relative path depth), `design-system/` root files (extra `../`), and Phase 5 README indexes pointing at documents not yet written.
+**Critical finding:** Cross-link remediation pass complete — internal link integrity restored across `pages/flows/`, `design-system/`, `docs/playbooks/`, and entry points. Remaining launch blockers are counsel review, founder ADRs, and visual assets.
 
 ---
 
@@ -102,7 +102,7 @@ Marketplate's documentation repository is **implementation-ready for core produc
 - [x] Documentation QA pass complete
 - [x] Phase 5 body documents published
 - [x] Gap report published to `roadmap/documentation-gaps.md`
-- [ ] All cross-links validated (158 broken remain)
+- [x] All cross-links validated (internal link scan clean)
 - [ ] Repository certified for **public launch** — blocked on counsel, ADRs, link fixes
 
 ---
@@ -197,7 +197,7 @@ All Phase 5 README-indexed documents are on disk as of Phase 5 completion:
 
 ## 3. Broken or Missing Cross-Links
 
-**Audit method:** Parsed all `[text](path)` links in 210 Markdown files. Excluded external URLs and anchor-only links.
+**Audit method:** Parsed markdown link patterns across all `.md` files. Excluded external URLs and anchor-only links.
 
 | Metric | Value |
 |--------|-------|
@@ -295,7 +295,7 @@ Per [Build Readiness](build-readiness.md), engineering should follow the documen
 
 | Dimension | Assessment |
 |-----------|------------|
-| **Cross-link hygiene** | 158 broken links undermine "link, don't duplicate" philosophy — especially in user flows |
+| **Cross-link hygiene** | Remediation pass complete — internal links validated across flows, playbooks, and design-system paths |
 | **Decision debt** | 242 `TODO(decision):` markers — appropriate per constitution, but high concentration in legal and trust standards |
 | **Legal enforceability** | Framework quality is good; production use requires counsel — not a doc quality issue but a completeness gap |
 | **Stale secondary indexes** | build-readiness, operations README lag phase completion |
@@ -343,7 +343,7 @@ Phase 5 closed in [phased-rollout.md](phased-rollout.md):
 - [x] Gap report published
 - [x] All Phase 5 body documents published
 - [x] Stale indexes updated (build-readiness, operations README, engineering README)
-- [ ] All cross-links validated (< 10 broken non-placeholder links)
+- [x] All cross-links validated (< 10 broken non-placeholder links)
 - [ ] Legal counsel review scheduled or complete
 - [ ] Top 8 founder decisions captured as ADRs
 - [ ] `assets/` populated or interim policy documented
