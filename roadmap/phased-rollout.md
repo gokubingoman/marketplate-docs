@@ -14,7 +14,7 @@ This roadmap governs how Marketplate's institutional memory is built. Work proce
 | 2 | Design & UX | **Complete** | UX & IA, Page Specification |
 | 3 | Engineering | **Complete** | Engineering Architecture, Backend Systems, AI Platform |
 | 4 | Operations | **Complete** | Operations & SOP, Customer Support, Trust & Safety, Super Admin |
-| 5 | Launch | Not started | Legal & Compliance, Security & Infrastructure, Analytics & Data, Growth & Marketing, Research & Competitive Analysis, Documentation QA |
+| 5 | Launch | **Complete** | Legal & Compliance, Security & Infrastructure, Analytics & Data, Growth & Marketing, Research & Competitive Analysis, Documentation QA |
 
 ---
 
@@ -155,25 +155,26 @@ See [prompts/phase-agent-prompts.md](../prompts/phase-agent-prompts.md).
 
 **Goal:** Legal, security, analytics, growth, research, and documentation QA.
 
-**Status:** Not started
+**Status:** Complete
 
 ### Deliverables
 
 | Agent | Folder | Documents |
 |-------|--------|-----------|
-| Legal & Compliance | `legal/` | Terms, privacy, regulatory compliance |
-| Security & Infrastructure | `engineering/` | Security policies, infrastructure, DR |
-| Analytics & Data | `analytics/` | Metrics definitions, dashboards, data governance |
-| Growth & Marketing | `growth/` | Acquisition, retention, brand marketing |
-| Research & Competitive Analysis | `research/` | Market research, competitive landscape |
-| Documentation QA | All | Gap analysis, consistency review |
+| Legal & Compliance | `legal/` | README, ToS, privacy, creator agreement, food commerce compliance, refund policy |
+| Security & Infrastructure | `engineering/` | Security policy, incident response, access control, data protection |
+| Analytics & Data | `analytics/` | Metrics definitions, event taxonomy, dashboards, data governance |
+| Growth & Marketing | `growth/` | GTM strategy, acquisition channels, brand marketing, launch plan |
+| Research & Competitive Analysis | `research/` | Competitive landscape, market analysis |
+| Documentation QA | `roadmap/` | Gap analysis (`documentation-gaps.md`), consistency review |
 
 ### Exit Criteria
 
-- [ ] Documentation QA pass complete
-- [ ] All cross-links validated
-- [ ] Gap report published to `roadmap/documentation-gaps.md`
-- [ ] Repository ready as primary context source for implementation
+- [x] Documentation QA pass complete
+- [x] Phase 5 body documents published (legal, security, analytics, growth, research)
+- [x] Gap report published to `roadmap/documentation-gaps.md`
+- [ ] All cross-links validated — **158 broken links remain**; backlog tracked in [Documentation Gaps](documentation-gaps.md)
+- [ ] Repository certified for **public launch** — blocked on counsel-approved legal text, founder ADRs, and link remediation (see [Build Readiness](build-readiness.md))
 
 ---
 

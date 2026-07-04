@@ -337,6 +337,8 @@ Retention: 30 days hot search; 1 year cold archive for audit-adjacent logs. Trus
 
 Surface isolation per [Information Architecture — Surface isolation rules](../pages/information-architecture.md#three-primary-surfaces).
 
+Security program: [Security Policy](security-policy.md), [Access Control](access-control.md), [Data Protection](data-protection.md), [Incident Response](incident-response.md).
+
 ---
 
 ## Testing

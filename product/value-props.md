@@ -275,4 +275,5 @@ Resolve via ADR in [`decisions/`](../decisions/).
 - [Company Philosophy](../company/company-philosophy.md)
 - [Brand Strategy](../brand/brand-strategy.md)
 - [Brand Positioning](../brand/positioning.md)
-- [Competitive Analysis](../research/competitive-analysis.md) *(Phase 5)*
+- [Competitive Landscape](../research/competitive-landscape.md) *(Phase 5)*
+- [Market Analysis](../research/market-analysis.md) *(Phase 5)*

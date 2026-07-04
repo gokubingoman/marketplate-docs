@@ -144,7 +144,7 @@ TODO(decision): Quantify serviceable addressable market (SAM) for founding geogr
 | Customer relationship | Platform-owned | Seller-owned | Creator-owned with platform trust layer |
 | Food safety | Regulatory minimum | Not addressed | Core product pillar |
 
-Detailed competitive analysis will live in [Research / Competitive Analysis](../research/competitive-analysis.md) (Phase 5).
+Detailed competitive analysis lives in [Research / Competitive Landscape](../research/competitive-landscape.md) (Phase 5).
 
 ---
 
@@ -170,4 +170,5 @@ Detailed competitive analysis will live in [Research / Competitive Analysis](../
 - [Product Personas](../product/personas.md) — Creator and customer segments
 - [Product Value Propositions](../product/value-props.md) — Segment-specific value
 - [Marketplace Mechanics](../product/marketplace-mechanics.md) — Trust and marketplace design
-- [Competitive Analysis](../research/competitive-analysis.md) — Detailed competitor research (Phase 5)
+- [Competitive Landscape](../research/competitive-landscape.md) — Detailed competitor research (Phase 5)
+- [Market Analysis](../research/market-analysis.md) — TAM/SAM/SOM and segment research (Phase 5)

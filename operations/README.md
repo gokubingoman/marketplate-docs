@@ -2,7 +2,7 @@
 
 Standard Operating Procedures and internal workflows for Marketplate platform operations.
 
-**Phase 4 status:** In progress
+**Phase 4 status:** Complete
 
 Every SOP follows [`templates/sop-template.md`](../templates/sop-template.md) and connects to [Operational Playbooks](../docs/playbooks/) for cross-functional scenarios.
 

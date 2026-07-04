@@ -14,6 +14,7 @@ This repository is not a passive documentation archive. It is the operating syst
 | [Company Phases](roadmap/company-phases.md) | **15-phase company roadmap** — marketplace is Phase 1 only |
 | [Product Roadmap](roadmap/product-roadmap.md) | Supplementary future capability detail |
 | [Build Readiness](roadmap/build-readiness.md) | What's ready vs missing before launch |
+| [Documentation Gaps](roadmap/documentation-gaps.md) | Phase 5 QA — completeness audit and readiness scores |
 | [Product Overview](product/overview.md) | What Marketplate is — and what it is not |
 | [Information Architecture](pages/information-architecture.md) | Site map and page inventory (37 screens) |
 
@@ -52,6 +53,15 @@ This repository is not a passive documentation archive. It is the operating syst
 | [Pages](pages/) | IA, navigation, 4 user flows, 37 page specs |
 | [Design System](design-system/) | Foundations + 8 component specifications |
 
+### Phase 5 Documents
+
+| Folder | Index |
+|--------|-------|
+| [Legal](legal/) | ToS, privacy, creator agreement, food commerce compliance, refund policy |
+| [Analytics](analytics/) | Metrics definitions, event taxonomy, dashboards, data governance |
+| [Growth](growth/) | GTM strategy, acquisition channels, brand marketing, launch plan |
+| [Research](research/) | Competitive landscape, market analysis |
+
 ## Repository Structure
 
 | Folder | Purpose | Phase |
@@ -85,7 +95,7 @@ This repository is not a passive documentation archive. It is the operating syst
 | 2 | Design & UX — design system, IA, pages | **Complete** |
 | 3 | Engineering — architecture, APIs, infrastructure | **Complete** |
 | 4 | Operations — SOPs, support, trust & safety | **Complete** |
-| 5 | Launch — legal, analytics, roadmap, QA | Not started |
+| 5 | Launch — legal, security, analytics, growth, research, QA | **Complete** |
 
 ## Documentation Philosophy
 

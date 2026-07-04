@@ -2,7 +2,8 @@
 
 System architecture, APIs, data models, and service specifications for Marketplate.
 
-**Phase 3 status:** Complete
+**Phase 3 status:** Complete  
+**Phase 5 — Security:** Complete
 
 ## Architecture
 
@@ -43,8 +44,19 @@ System architecture, APIs, data models, and service specifications for Marketpla
 | [Notification Service](services/notification-service.md) | Email, push, SMS |
 | [Discovery Service](services/discovery-service.md) | Search, browse, ranking |
 
+## Security
+
+| Document | Description |
+|----------|-------------|
+| [Security Policy](security-policy.md) | Infosec principles, scope, roles, acceptable use |
+| [Access Control](access-control.md) | RBAC, MFA, admin access, least privilege, audit |
+| [Data Protection](data-protection.md) | Encryption, PII classification, retention, verification documents |
+| [Incident Response](incident-response.md) | Security incident classification, response, notification, postmortem |
+
 ## Related
 
 - [Page specs](../pages/) — API requirements per screen
+- [Analytics](../analytics/) — Event taxonomy, metrics, dashboards
 - [AI systems](../ai/) — AI platform documentation
+- [Operations](../operations/) — SOPs for verification, moderation, disputes
 - [Marketplace Mechanics](../product/marketplace-mechanics.md)

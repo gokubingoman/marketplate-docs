@@ -11,7 +11,7 @@
 
 **Yes — for core product engineering.** Phases 1–3 of documentation are complete: company strategy, every page spec, API catalogs, data models, service architecture, and AI system specs. An engineering team can begin implementation against `pages/`, `engineering/`, and `design-system/`.
 
-**Not yet — for operating a live marketplace at scale.** Phases 4–5 and several founder decisions remain before public launch with real money, real food, and real regulatory exposure.
+**Not yet — for public launch at scale.** Documentation Phases 1–5 are structurally complete. Remaining launch blockers are **founder decisions**, **legal counsel review** of framework drafts, **cross-link remediation**, and **visual brand assets** — not missing documentation folders.
 
 ---
 
@@ -31,24 +31,25 @@
 | Operational playbooks | `docs/playbooks/` | ✓ |
 | Employee training | `docs/training/` | ✓ |
 | Internal briefs | `docs/internal/` | ✓ |
+| Operations SOPs | `operations/` | ✓ Phase 4 |
+| Customer support playbooks | `support/` | ✓ Phase 4 |
+| Legal & compliance (framework) | `legal/` | ✓ Phase 5 — counsel review required |
+| Security policies | `engineering/` | ✓ Phase 5 |
+| Analytics definitions | `analytics/` | ✓ Phase 5 |
+| Growth & GTM | `growth/` | ✓ Phase 5 |
+| Competitive research | `research/` | ✓ Phase 5 |
 
 ---
 
-## Documentation gaps (block or risk launch)
+## Launch blockers (post-documentation)
 
-| Gap | Folder | Why it matters | Priority |
-|-----|--------|----------------|----------|
-| **Legal & compliance** | `legal/` | Terms, privacy, food sale regulations, creator agreements, refund policy as enforceable legal text | **Launch blocker** |
-| **Operations SOPs** | `operations/` | Verification, moderation, disputes, food safety, refunds, suspension, admin | ✓ Phase 4 complete |
-| **Customer support playbooks** | `support/` | Playbook, escalation guide, macro library | ✓ Phase 4 complete |
-| **Analytics definitions** | `analytics/` | Event taxonomy implementation, dashboards, data governance | High |
-| **Security policies** | `engineering/` (Phase 5) | Formal infosec policy, incident response, access reviews | High |
-| **Growth & GTM** | `growth/` | Launch market acquisition plan | Medium (parallel to build) |
-| **Competitive research** | `research/` | Ongoing intelligence | Medium |
-| **ADRs for open tech decisions** | `decisions/` | Auth provider, verification vendor, cloud region | Medium |
-| **Documentation QA pass** | `roadmap/documentation-gaps.md` | Cross-link validation, consistency audit | Before launch |
-| **Visual brand assets** | `assets/` | Logo, wordmark, photography direction (empty today) | Medium |
-| **Diagrams** | `diagrams/` | Architecture visuals for onboarding (optional) | Low |
+| Blocker | Why it matters | Priority |
+|---------|----------------|----------|
+| **Legal counsel review** | All `legal/` docs are framework drafts — not enforceable until counsel approves | **Launch blocker** |
+| **Founder decisions → ADRs** | 242 `TODO(decision):` markers; top 8 block checkout config and GTM | **Launch blocker** |
+| **Cross-link remediation** | ~158 broken links — concentrated in `pages/flows/` and design-system paths | High |
+| **Visual brand assets** | `assets/` empty — logo, wordmark, photography direction | Medium |
+| **Architecture diagrams** | `diagrams/` empty — optional for onboarding | Low |
 
 ---
 
@@ -101,13 +102,14 @@ Track decisions in [`decisions/`](../decisions/) as ADRs when resolved.
 3. Help center integration from `docs/help-center/`
 4. Analytics instrumentation
 
-### Phase E — Launch readiness (requires Phase 4–5 docs)
+### Phase E — Launch readiness (requires counsel + decisions)
 
-1. Legal docs live
+1. Legal docs counsel-approved and published
 2. SOPs trained and staffed
 3. Support queue operational
 4. Security review complete
-5. Soft launch in founding market
+5. Cross-link remediation pass
+6. Soft launch in founding market
 
 ---
 
@@ -117,7 +119,7 @@ Track decisions in [`decisions/`](../decisions/) as ADRs when resolved.
 - International expansion
 - Full analytics warehouse
 - Every playbook executed (playbooks guide ops; code can precede some)
-- Phase 5 growth/research docs
+- Phase 5 growth/research docs (now complete — execution still requires launch market decision)
 
 ---
 

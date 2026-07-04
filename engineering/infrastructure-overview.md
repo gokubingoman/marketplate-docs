@@ -369,7 +369,7 @@ PII scrubbing at log pipeline for accidental inclusion.
 | Backup encryption | Encrypted backups |
 | Admin access | VPN or IP allowlist for admin tools *(optional)* |
 
-Compliance framing: [`legal/`](../legal/) *(Phase 5)*.
+Compliance framing: [`legal/`](../legal/) *(Phase 5)*. Security program: [Security Policy](security-policy.md), [Access Control](access-control.md), [Data Protection](data-protection.md), [Incident Response](incident-response.md).
 
 ---
 
@@ -486,3 +486,6 @@ Cloud provider ADR required before implementing provider-specific services.
 - [Marketplace Mechanics](../product/marketplace-mechanics.md)
 - [Information Architecture](../pages/information-architecture.md)
 - [Operations](../operations/) *(Phase 4)*
+- [Security Policy](security-policy.md)
+- [Data Protection](data-protection.md)
+- [Incident Response](incident-response.md)
