@@ -46,9 +46,9 @@
 | Blocker | Why it matters | Priority |
 |---------|----------------|----------|
 | **Legal counsel review** | All `legal/` docs are framework drafts — not enforceable until counsel approves | **Launch blocker** |
-| **Founder decisions → ADRs** | 242 `TODO(decision):` markers; top 8 block checkout config and GTM | **Launch blocker** |
-| **Cross-link remediation** | ~158 broken links — concentrated in `pages/flows/` and design-system paths | High |
-| **Visual brand assets** | `assets/` empty — logo, wordmark, photography direction | Medium |
+| **Founder ADR acceptance** | 8 Proposed ADRs in `decisions/` — options analyzed; production config blocked until Accepted | **Launch blocker** |
+| **Cross-link remediation** | ✓ Complete — internal link scan clean | — |
+| **Visual brand assets** | `assets/README.md` placeholder; logo/wordmark pending | Medium |
 | **Architecture diagrams** | `diagrams/` empty — optional for onboarding | Low |
 
 ---
@@ -57,18 +57,19 @@
 
 These appear as `TODO(decision):` across the repo. Implementation can proceed with assumptions, but **launch cannot** without resolution:
 
-| Decision | Affects |
-|----------|---------|
-| **Geographic launch market** | Compliance templates, verification partners, discovery defaults, GTM |
-| **Pricing model** | Creator tiers, feature gating, revenue forecasting |
-| **Commission structure** | Checkout fees, payout UX, unit economics |
-| **Trust Score weights & visibility** | Discovery ranking, creator dashboard, customer-facing badges |
-| **Auth provider** | Login, sessions, SSO |
-| **Identity verification vendor** | Onboarding flow, Trust Service integration |
-| **Stripe Connect model** | Payout timing, fee pass-through |
-| **Consumer app naming** | Brand lockups, app store presence |
+| Decision | ADR | Affects |
+|----------|-----|---------|
+| **Geographic launch market** | [ADR-001](../decisions/adr-001-geographic-launch-market.md) | Compliance templates, verification partners, discovery defaults, GTM |
+| **Pricing model** | [ADR-002](../decisions/adr-002-pricing-model.md) | Creator tiers, feature gating, revenue forecasting |
+| **Commission structure** | [ADR-003](../decisions/adr-003-commission-structure.md) | Checkout fees, payout UX, unit economics |
+| **Trust Score weights & visibility** | [ADR-007](../decisions/adr-007-trust-score-weights-visibility.md) | Discovery ranking, creator dashboard, customer-facing badges |
+| **Auth provider** | [ADR-004](../decisions/adr-004-auth-provider.md) | Login, sessions, SSO |
+| **Identity verification vendor** | [ADR-005](../decisions/adr-005-identity-verification-vendor.md) | Onboarding flow, Trust Service integration |
+| **Stripe Connect model** | [ADR-006](../decisions/adr-006-stripe-connect-model.md) | Payout timing, fee pass-through |
+| **Analytics / BI stack** | [ADR-008](../decisions/adr-008-analytics-bi-stack.md) | Event pipeline, dashboards, warehouse |
+| **Consumer app naming** | — *(not yet ADR)* | Brand lockups, app store presence |
 
-Track decisions in [`decisions/`](../decisions/) as ADRs when resolved.
+Track decisions in [`decisions/`](../decisions/) as ADRs when resolved. **8 Proposed ADRs** published — see [Decision Index](../decisions/README.md).
 
 ---
 

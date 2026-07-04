@@ -332,7 +332,7 @@ One composite score — the **Superhost equivalent** for food creators.
 | Food safety incidents | Inverse (hard penalty) |
 | AI confidence (verification, moderation) | Assist only — not public alone |
 
-`TODO(decision):` Component weights and public vs internal visibility — see [Glossary](../company/glossary.md).
+`TODO(decision):` Component weights and public vs internal visibility — see [ADR-007](../decisions/adr-007-trust-score-weights-visibility.md).
 
 → Standards: [Trust & Safety Standards](../docs/standards/trust-and-safety-standards.md)
 

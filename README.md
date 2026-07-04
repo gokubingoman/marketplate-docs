@@ -15,6 +15,7 @@ This repository is not a passive documentation archive. It is the operating syst
 | [Product Roadmap](roadmap/product-roadmap.md) | Supplementary future capability detail |
 | [Build Readiness](roadmap/build-readiness.md) | What's ready vs missing before launch |
 | [Documentation Gaps](roadmap/documentation-gaps.md) | Phase 5 QA — completeness audit and readiness scores |
+| [Architecture Decisions](decisions/) | 8 Proposed ADRs — founder decisions with options analysis |
 | [Product Overview](product/overview.md) | What Marketplate is — and what it is not |
 | [Information Architecture](pages/information-architecture.md) | Site map and page inventory (37 screens) |
 

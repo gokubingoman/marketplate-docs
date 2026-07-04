@@ -68,6 +68,21 @@ The authenticated workspace where creators manage listings, orders, fulfillment,
 
 A creator's public-facing presence on Marketplate — profile, verification badges, menu or catalog, reviews, and ordering entry points. The storefront represents the creator's brand; Marketplate provides the trust layer.
 
+### Chef Levels
+
+A creator progression system distinct from baseline verification. Levels reflect sustained trust, volume, and operational excellence — not pay-to-win ranking. Phase 1 defines the ladder; feature unlocks (analytics depth, Collections placement, instant payout eligibility) roll out with Chef OS maturity.
+
+| Level | Meaning |
+|-------|---------|
+| **New Chef** | Onboarding; not yet verified |
+| **Verified Chef** | Passed identity + kitchen + compliance — can sell |
+| **Trusted Chef** | Sustained Trust Score + volume |
+| **Top Chef** | Top percentile in market |
+| **Marketplate Signature** | Editorial + metrics — platform co-marketing |
+| **Invite Only** | Exclusive tier; limited supply |
+
+→ Full definition: [Company Phases — Chef Levels](../roadmap/company-phases.md#chef-levels) · Trust inputs: [ADR-007](../decisions/adr-007-trust-score-weights-visibility.md)
+
 ### Customer
 
 An individual who discovers, orders from, and reviews verified food creators on Marketplate. Customers may purchase for personal consumption, events, or gifting.
@@ -139,6 +154,18 @@ The discovery and transaction layer connecting verified creators with customers.
 ### Marketplace OS
 
 See **Business OS**. Shorthand for Marketplate as the combined marketplace and operating system.
+
+### Marketplate Collections
+
+Curated, shareable, editorial discovery groupings — e.g., "Best Jamaican Food in Toronto," "Vegan Weeknight Picks," "Staff Picks." Phase 1 ships staff/editorial collections with trust gates on included creators. Signature discovery feature; scales to chef and community curation in later company phases.
+
+→ [Company Phases — Marketplate Collections](../roadmap/company-phases.md#marketplate-collections)
+
+### Marketplate Verified
+
+Premium trust badge — hard to earn, high signal, better discovery ranking. Distinct from baseline **Verified Chef** (minimum to sell). Requires sustained Trust Score, compliance history, and operational excellence.
+
+→ [Company Phases — Marketplate Verified](../roadmap/company-phases.md#marketplate-verified)
 
 ### Meal Prep Operator
 
@@ -222,9 +249,11 @@ Any workflow where failure or error could impact food safety, financial integrit
 
 ### Trust Score
 
-A composite signal reflecting a creator's verification status, compliance history, review quality, fulfillment reliability, and incident record. Trust Score influences marketplace visibility and customer confidence. Exact weighting is defined in [Marketplace Mechanics](../product/marketplace-mechanics.md).
+A composite signal reflecting a creator's verification status, compliance history, review quality, fulfillment reliability, and incident record. Trust Score influences marketplace visibility, Chef Levels, and Marketplate Verified eligibility. Hard gates (identity, kitchen, compliance) must pass before weighted components apply.
 
-TODO(decision): Define Trust Score component weights and public vs. internal visibility — which factors are shown to customers and which are internal-only signals.
+Component weights and public vs. internal visibility: **[ADR-007 — Trust Score Weights and Visibility](../decisions/adr-007-trust-score-weights-visibility.md)** (Proposed).
+
+→ Standards: [Trust & Safety Standards — Trust Score](../docs/standards/trust-and-safety-standards.md#trust-score)
 
 ### Trust Thesis
 
