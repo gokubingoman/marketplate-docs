@@ -30,6 +30,7 @@ Documented founder and architecture decisions for Marketplate. When a `TODO(deci
 | [ADR-006](adr-006-stripe-connect-model.md) | Stripe Connect account model | **Proposed** | Payment service, payout timing, onboarding |
 | [ADR-007](adr-007-trust-score-weights-visibility.md) | Trust Score weights and visibility | **Proposed** | Discovery ranking, creator dashboard, badges |
 | [ADR-008](adr-008-analytics-bi-stack.md) | Analytics and BI stack | **Proposed** | Event pipeline, dashboards, data warehouse |
+| [ADR-009](adr-009-consumer-app-naming.md) | Consumer app naming | **Proposed** | Brand lockups, app store, auth pages |
 
 ---
 

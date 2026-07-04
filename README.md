@@ -15,7 +15,9 @@ This repository is not a passive documentation archive. It is the operating syst
 | [Product Roadmap](roadmap/product-roadmap.md) | Supplementary future capability detail |
 | [Build Readiness](roadmap/build-readiness.md) | What's ready vs missing before launch |
 | [Documentation Gaps](roadmap/documentation-gaps.md) | Phase 5 QA — completeness audit and readiness scores |
-| [Architecture Decisions](decisions/) | 8 Proposed ADRs — founder decisions with options analysis |
+| [Architecture Decisions](decisions/) | 9 Proposed ADRs — founder decisions with options analysis |
+| [Implementation Kickoff](engineering/implementation-kickoff.md) | **Build from docs** — Phase A–E engineering sequence |
+| [Diagrams](diagrams/) | Architecture visuals for onboarding |
 | [Product Overview](product/overview.md) | What Marketplate is — and what it is not |
 | [Information Architecture](pages/information-architecture.md) | Site map and page inventory (37 screens) |
 
@@ -83,6 +85,7 @@ This repository is not a passive documentation archive. It is the operating syst
 | `inspiration/` | Reference products, design inspiration | Ongoing |
 | `roadmap/` | Product roadmap, build readiness, documentation phases | Ongoing |
 | `decisions/` | Architecture Decision Records (ADRs) | Ongoing |
+| `diagrams/` | Architecture visuals | Ongoing |
 | `templates/` | Reusable document templates | Ongoing |
 | `prompts/` | Agent prompts and AI context | Ongoing |
 | `assets/` | Images, logos, media | Ongoing |

@@ -30,7 +30,7 @@ These conventions apply to product UI, marketing, documentation, support, and en
 
 **Incorrect:** "marketplate," "Market Plate," "MarketplateApp," "MP" in customer-facing copy
 
-TODO(decision): Consumer app name at launch — "Marketplate" alone vs. a distinct customer app name (e.g., "Marketplate" vs. sub-brand).
+TODO(decision): Consumer app name at launch — see [ADR-009](../decisions/adr-009-consumer-app-naming.md) (recommends unified **Marketplate**).
 
 ### Creator vs. customer products
 

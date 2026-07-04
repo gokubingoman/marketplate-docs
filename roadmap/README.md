@@ -9,6 +9,8 @@ Marketplate maintains three roadmap views:
 | [Phased Documentation Rollout](phased-rollout.md) | **How we document** — institutional memory built in five doc phases |
 | [Build Readiness](build-readiness.md) | **What we need before code ships** — gaps, founder decisions, doc status |
 | [Documentation Gaps](documentation-gaps.md) | **Phase 5 QA report** — completeness audit, readiness scores |
-| [Architecture Decisions](../decisions/) | **8 Proposed ADRs** — founder decisions with options and interim stubs |
+| [Architecture Decisions](../decisions/) | **9 Proposed ADRs** — founder decisions with options and interim stubs |
+| [Implementation Kickoff](../engineering/implementation-kickoff.md) | Phase A–E build sequence from documentation |
+| [Diagrams](../diagrams/) | Architecture visuals |
 
 Related: [Vision](../company/vision.md) · [Product Overview](../product/overview.md)

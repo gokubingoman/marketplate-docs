@@ -46,10 +46,10 @@
 | Blocker | Why it matters | Priority |
 |---------|----------------|----------|
 | **Legal counsel review** | All `legal/` docs are framework drafts — not enforceable until counsel approves | **Launch blocker** |
-| **Founder ADR acceptance** | 8 Proposed ADRs in `decisions/` — options analyzed; production config blocked until Accepted | **Launch blocker** |
+| **Founder ADR acceptance** | 9 Proposed ADRs in `decisions/` — options analyzed; production config blocked until Accepted | **Launch blocker** |
 | **Cross-link remediation** | ✓ Complete — internal link scan clean | — |
 | **Visual brand assets** | `assets/README.md` placeholder; logo/wordmark pending | Medium |
-| **Architecture diagrams** | `diagrams/` empty — optional for onboarding | Low |
+| **Architecture diagrams** | ✓ `diagrams/` — topology, surfaces, trust/commerce flows | — |
 
 ---
 
@@ -67,9 +67,9 @@ These appear as `TODO(decision):` across the repo. Implementation can proceed wi
 | **Identity verification vendor** | [ADR-005](../decisions/adr-005-identity-verification-vendor.md) | Onboarding flow, Trust Service integration |
 | **Stripe Connect model** | [ADR-006](../decisions/adr-006-stripe-connect-model.md) | Payout timing, fee pass-through |
 | **Analytics / BI stack** | [ADR-008](../decisions/adr-008-analytics-bi-stack.md) | Event pipeline, dashboards, warehouse |
-| **Consumer app naming** | — *(not yet ADR)* | Brand lockups, app store presence |
+| **Consumer app naming** | [ADR-009](../decisions/adr-009-consumer-app-naming.md) | Brand lockups, app store presence |
 
-Track decisions in [`decisions/`](../decisions/) as ADRs when resolved. **8 Proposed ADRs** published — see [Decision Index](../decisions/README.md).
+Track decisions in [`decisions/`](../decisions/) as ADRs when resolved. **9 Proposed ADRs** published — see [Decision Index](../decisions/README.md).
 
 ---
 

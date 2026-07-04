@@ -345,7 +345,7 @@ Phase 5 closed in [phased-rollout.md](phased-rollout.md):
 - [x] Stale indexes updated (build-readiness, operations README, engineering README)
 - [x] All cross-links validated (< 10 broken non-placeholder links)
 - [ ] Legal counsel review scheduled or complete
-- [ ] Top 8 founder decisions captured as ADRs — **8 Proposed ADRs published**; founder acceptance pending
+- [ ] Top 9 founder decisions captured as ADRs — **9 Proposed ADRs published**; founder acceptance pending
 - [ ] `assets/` populated or interim policy documented
 - [ ] Repository certified for **public launch**
 

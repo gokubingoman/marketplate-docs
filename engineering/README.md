@@ -9,6 +9,7 @@ System architecture, APIs, data models, and service specifications for Marketpla
 
 | Document | Description |
 |----------|-------------|
+| [Implementation Kickoff](implementation-kickoff.md) | **Start here to build** — Phase A–E sequence, repo layout, sprint 0 |
 | [Architecture Overview](architecture-overview.md) | System design, principles, high-level diagram |
 | [Service Catalog](service-catalog.md) | All services and responsibilities |
 | [Integration Patterns](integration-patterns.md) | Event-driven patterns, external integrations |
@@ -55,6 +56,7 @@ System architecture, APIs, data models, and service specifications for Marketpla
 
 ## Related
 
+- [Diagrams](../diagrams/) — Architecture visuals for onboarding
 - [Page specs](../pages/) — API requirements per screen
 - [Analytics](../analytics/) — Event taxonomy, metrics, dashboards
 - [AI systems](../ai/) — AI platform documentation

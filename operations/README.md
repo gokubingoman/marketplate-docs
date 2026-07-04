@@ -31,6 +31,7 @@ Every SOP follows [`templates/sop-template.md`](../templates/sop-template.md) an
 | SOP | Trigger |
 |-----|---------|
 | [Fraud Investigation](fraud-investigation-sop.md) | Fraud flag, payment alert, identity manipulation |
+| [Chargeback Response](chargeback-response-sop.md) | Stripe dispute, chargeback webhook, elevated dispute rate |
 
 ## Related
 
